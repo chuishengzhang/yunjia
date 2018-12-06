@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+	
+	<!-- 组件扫描 -->
+	<context:component-scan base-package="com.zcs.yunjia.search.service"></context:component-scan>
+	
+	<context:property-placeholder location="classpath:properties/*.conf"/>
+	
+	<!-- 配置solrj客户端 -->
+	<!-- 单机版 -->
+	<bean id="solrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+		<constructor-arg name="baseURL" value="http://47.100.214.167:8983/solr/yunjia" />
+	</bean>
+	<!-- 集群版 -->
+	<!-- <bean id="solrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+		<constructor-arg name="zkHost" value="http://47.100.214.167/solr/yunjia" />
+	</bean> -->
+	
+	
+	<!-- 使用dubbo发布服务 -->
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+	<dubbo:application name="yunjia-search" />
+	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181" />
+	<!-- 用dubbo协议在20880端口暴露服务 -->
+	<dubbo:protocol name="dubbo" port="20882" />
+	<dubbo:provider timeout="500000"></dubbo:provider>
+	
+	<!-- 声明需要暴露的服务接口 -->
+	<dubbo:service interface="com.zcs.yunjia.search.service.SearchService" ref="searchServiceImpl"/>
+</beans>

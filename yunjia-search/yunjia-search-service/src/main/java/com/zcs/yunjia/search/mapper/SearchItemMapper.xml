@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zcs.yunjia.search.mapper.SearchItemMapper" >
+   <!-- 查询片段 -->
+   <sql id="searchItemBaseCloum">
+   		a.id,
+   		a.title,
+   		a.sell_point,
+   		a.price,
+   		a.image,
+   		b.`name` itemCatName,
+   		c.item_desc 
+   		from tb_item a,
+   		tb_item_cat b,
+   		tb_item_desc c
+   </sql>
+   <sql id="searchItemJoinTable">
+   		a.cid=b.id 
+		and 
+		a.id=c.item_id
+   </sql>
+   <select id="importSearchItemList" resultType="com.zcs.yunjia.common.pojo.SearchItem">
+   		select 
+   		<include refid="searchItemBaseCloum" />
+		where 
+		<include refid="searchItemJoinTable" />
+   </select>
+   <select id="getSearchItemById" parameterType="long"  resultType="com.zcs.yunjia.common.pojo.SearchItem">
+   		select 
+   		<include refid="searchItemBaseCloum" />
+   		where 
+   		<include refid="searchItemJoinTable" />
+   		and a.id=#{id}
+   </select>
+</mapper>

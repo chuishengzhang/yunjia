@@ -1,0 +1,15 @@
+tomcat-port:
+yunjia-manager:8080
+yunjia-manager-web:8081
+yunjia-portal:8083
+yunjia-content:8084
+yunjia-search:8085
+yunjia-search-web:8086
+yunjia-item:8087
+yunjia-item-web:8088
+
+dubbo-port:
+yunjia-manager:20880 hessian:20890
+yunjia-content:20881
+yunjia-search:20882
+yunjia-item:20883

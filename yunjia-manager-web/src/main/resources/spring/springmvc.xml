@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+    http://www.springframework.org/schema/mvc 
+    http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+    http://code.alibabatech.com/schema/dubbo 
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<!-- 组件扫描Controller -->
+	<context:component-scan base-package="com.zcs.yunjia.controller" />
+	
+	<!-- 开启注解驱动 -->
+	<mvc:annotation-driven />
+	
+	<context:property-placeholder location="classpath:properties/*.properties"/>
+	
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver" >
+		<!-- 100M -->
+		<property name="maxUploadSize" value="104857600"></property>	
+		<property name="defaultEncoding" value="utf-8"></property>   
+	</bean>
+	
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>	
+	
+	<!--由于在web.xml中定义的url拦截形式为“/”表示拦截所有的url请求
+	，包括静态资源例如css、js等。所以需要在springmvc.xml中添加资源映射标签
+	  **表示js/下所有的文件包括文件夹都能访问-->
+	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"></mvc:resources>
+	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"></mvc:resources>
+	
+	<!-- 引用dubbo服务 -->
+	<dubbo:application name="yunjia-manager-web"/>
+	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181"/>
+	<dubbo:consumer timeout="50000"></dubbo:consumer>
+	
+	<dubbo:reference interface="com.zcs.yunjia.service.TestService" id="testService" />	
+	<dubbo:reference interface="com.zcs.yunjia.service.ItemService" id="itemService" />
+	<dubbo:reference interface="com.zcs.yunjia.content.service.CategoryService" id="categoryService" />
+	<dubbo:reference interface="com.zcs.yunjia.content.service.ContentService" id="contentService" />
+	<dubbo:reference interface="com.zcs.yunjia.service.ItemCatService" id="itemCatService" />
+	<dubbo:reference interface="com.zcs.yunjia.service.ItemParamService" id="itemParamService" />
+	<dubbo:reference interface="com.zcs.yunjia.service.ItemDescService" id="itemDescService" />
+	<dubbo:reference protocol="hessian" interface="com.zcs.yunjia.service.UploadService" id="uploadService" />
+</beans>
