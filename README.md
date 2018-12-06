@@ -54,6 +54,14 @@ yunjia-item | 8087 | 20883
 yunjia-item-web | 8088 |
 注：如需修改可在各工程的pom.xml文件中修改。
 
+### 集群端口
+
+cluster | ports
+---|---
+redis | 6381-6386
+solrcloud | 8984-8987
+zookeeper | 2182-2184
+
 
 ### 运行步骤
 1. 打开eclipse->import->existing maven project,选择yunjia-parent导入。
