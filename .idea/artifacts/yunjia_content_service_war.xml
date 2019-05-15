@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yunjia-content-service:war">
+    <output-path>$PROJECT_DIR$/yunjia-content/yunjia-content-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yunjia-content-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yunjia-content-service.war">
+      <element id="artifact" artifact-name="yunjia-content-service:war exploded" />
+    </root>
+  </artifact>
+</component>

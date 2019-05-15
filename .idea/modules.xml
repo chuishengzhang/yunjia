@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/yunjia.iml" filepath="$PROJECT_DIR$/.idea/yunjia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-common/yunjia-common.iml" filepath="$PROJECT_DIR$/yunjia-common/yunjia-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-content/yunjia-content.iml" filepath="$PROJECT_DIR$/yunjia-content/yunjia-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/yunjia-content-interface.iml" filepath="$PROJECT_DIR$/yunjia-content/yunjia-content-interface/yunjia-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/yunjia-content-service.iml" filepath="$PROJECT_DIR$/yunjia-content/yunjia-content-service/yunjia-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/yunjia-manager-dao.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/yunjia-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-interface/yunjia-manager-interface.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-interface/yunjia-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/yunjia-manager-pojo.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/yunjia-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/yunjia-manager-service.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/yunjia-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-manager-web/yunjia-manager-web.iml" filepath="$PROJECT_DIR$/yunjia-manager-web/yunjia-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-parent/yunjia-parent.iml" filepath="$PROJECT_DIR$/yunjia-parent/yunjia-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-portal-web/yunjia-portal-web.iml" filepath="$PROJECT_DIR$/yunjia-portal-web/yunjia-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search-interface/yunjia-search-interface.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search-interface/yunjia-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service/yunjia-search-service.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search-service/yunjia-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-search-web/yunjia-search-web.iml" filepath="$PROJECT_DIR$/yunjia-search-web/yunjia-search-web.iml" />
+    </modules>
+  </component>
+</project>

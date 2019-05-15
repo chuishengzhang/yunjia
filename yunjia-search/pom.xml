@@ -13,4 +13,16 @@
   	<module>yunjia-search-interface</module>
   	<module>yunjia-search-service</module>
   </modules>
+  <build>
+    <plugins>
+      <!-- tomcat7插件 -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <configuration>
+          <port>8085</port>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
