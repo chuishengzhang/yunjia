@@ -6,20 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yunjia-item-interface" />
         <module name="yunjia-manager-web" />
         <module name="yunjia-common" />
         <module name="yunjia-manager-service" />
         <module name="yunjia-search-interface" />
         <module name="yunjia-portal-web" />
         <module name="yunjia-manager-dao" />
-        <module name="yunjia-item-service" />
+        <module name="yunjia-item-web" />
+        <module name="yunjia-item-interface" />
         <module name="yunjia-search-service" />
         <module name="yunjia-manager-pojo" />
         <module name="yunjia-content-service" />
         <module name="yunjia-manager-interface" />
         <module name="yunjia-search-web" />
         <module name="yunjia-content-interface" />
+        <module name="yunjia-item-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="yunjia-item" target="1.8" />
       <module name="yunjia-item-interface" target="1.8" />
       <module name="yunjia-item-service" target="1.8" />
+      <module name="yunjia-item-web" target="1.8" />
       <module name="yunjia-manager" target="1.8" />
       <module name="yunjia-manager-dao" target="1.8" />
       <module name="yunjia-manager-interface" target="1.8" />

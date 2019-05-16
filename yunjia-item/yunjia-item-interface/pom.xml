@@ -6,4 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>yunjia-item-interface</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.zcs.yunjia</groupId>
+      <artifactId>yunjia-manager-pojo</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
 </project>

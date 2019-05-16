@@ -10,9 +10,19 @@
 	<packaging>war</packaging>
 
 	<!-- 依赖 -->
-	<!-- 其他模块 -->
-	<!-- jar -->
 	<dependencies>
+	<!-- 其他模块 -->
+	<dependency>
+		<groupId>com.zcs.yunjia</groupId>
+		<artifactId>yunjia-item-interface</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>com.zcs.yunjia</groupId>
+		<artifactId>yunjia-manager-dao</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<!-- jar -->
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -57,16 +67,5 @@
 			</dependency>
 	</dependencies>
 	
-	<build>
-		<plugins>
-			<!-- tomcat插件 -->
-	  		<plugin>
-	  			<groupId>org.apache.tomcat.maven</groupId>
-	  			<artifactId>tomcat7-maven-plugin</artifactId>
-	  			<configuration>
-	  					<port>8087</port>
-				</configuration>
-	  		</plugin>
-  	</plugins>
-	</build>
+
 </project>

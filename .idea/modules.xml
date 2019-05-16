@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" filepath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-item-web/yunjia-item-web.iml" filepath="$PROJECT_DIR$/yunjia-item-web/yunjia-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/yunjia-manager-dao.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/yunjia-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-interface/yunjia-manager-interface.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-interface/yunjia-manager-interface.iml" />

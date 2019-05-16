@@ -11,4 +11,16 @@
   	<module>yunjia-item-interface</module>
   	<module>yunjia-item-service</module>
   </modules>
+  <build>
+    <plugins>
+      <!-- tomcat插件 -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <configuration>
+          <port>8087</port>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

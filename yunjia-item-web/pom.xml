@@ -70,6 +70,11 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
 			</dependency>
+			<dependency>
+				<groupId>com.zcs.yunjia</groupId>
+				<artifactId>yunjia-item-interface</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 	</dependencies>
 	
 	<build>
