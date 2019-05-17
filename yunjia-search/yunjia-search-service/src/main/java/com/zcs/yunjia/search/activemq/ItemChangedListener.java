@@ -43,7 +43,6 @@ public class ItemChangedListener implements MessageListener {
 					case "insert" : case "update" : case "inStock" : case "outStock"  :{
 						//查询
 						SearchItem searchItem = searchItemMapper.getSearchItemById(itemId);
-						System.out.println(searchItem.getId());
 						//更新索引库
 						try {
 							solrServer.add(SearchItemUtil.SearchItemToSolrDoc(searchItem));

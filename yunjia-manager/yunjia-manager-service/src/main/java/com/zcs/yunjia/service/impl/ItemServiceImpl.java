@@ -81,8 +81,8 @@ public class ItemServiceImpl implements ItemService {
 		
 		//补全商品信息
 		tbItem.setId(IDUtils.genItemId());
-		tbItem.setImage(tbItem.getId()+tbItem.getImage());
-		System.out.println(tbItem.getImage());
+		tbItem.setImage(tbItem.getImage());
+		System.out.println("save Item image url:"+tbItem.getImage());
 		tbItem.setStatus(new Byte("1"));
 		tbItem.setCreated(new Date());
 		tbItem.setUpdated(new Date());

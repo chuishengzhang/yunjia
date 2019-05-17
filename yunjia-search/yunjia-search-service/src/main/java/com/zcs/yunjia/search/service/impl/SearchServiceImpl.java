@@ -104,10 +104,13 @@ public class SearchServiceImpl implements SearchService {
 		result.setTotalPages((int)documentList.getNumFound()/rows);//设置总页数
 		for (SolrDocument solrDoc : documentList) {
 			SearchItem item = new SearchItem();
+			item.setId(Long.parseLong((String)solrDoc.getFieldValue("id")));
 			item.setTitle(solrDoc.getFieldValue("item_title")+"");
 			item.setSell_point((String)solrDoc.getFieldValue("item_sell_point"));
-			item.setPrice(Long.parseLong(solrDoc.getFieldValue("item_price")+""));
-			item.setImage((solrDoc.getFieldValue("item_image")+""));
+            item.setPrice((Long)solrDoc.getFieldValue("item_price"));
+            String images = solrDoc.getFieldValue("item_image")+"";
+            //多张图片截取第一张图片显示
+            item.setImage(images.split(",")[0]);
 			item.setItemCatName(solrDoc.getFieldValue("item_cat_name")+"");
 			item.setItem_desc(solrDoc.getFieldValue("item_desc")+"");
 			itemList.add(item);

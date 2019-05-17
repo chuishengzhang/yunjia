@@ -146,7 +146,7 @@
 		
 		<div id="preview">
 			<div id="spec-n1" class="jqzoom" clstag="shangpin|keycount|product|spec-n1">
-				<img data-img="1" width="350" height="350" src="${item.image}" alt="${item.title}"  jqimg="${item.image}"/>
+				<img data-img="1" width="350" height="350" src="${item.images[0]}" alt="${item.title}"  jqimg="${item.images[0]}"/>
 			</div>
 					
 			<div id="spec-list" clstag="shangpin|keycount|product|spec-n5">
@@ -154,7 +154,7 @@
 				<a href="javascript:;" class="spec-control" id="spec-backward"></a>
 				<div class="spec-items">
 					<ul class="lh">   
-						<c:forEach items="${item.image}" var="pic" varStatus="status">
+						<c:forEach items="${item.images}" var="pic" varStatus="status">
 							<c:choose>
 								<c:when test="${status.index == 0 }">
 									<li>
