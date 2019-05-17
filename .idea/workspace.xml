@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efb2cc1-229a-4e61-a564-31925ccae5aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/serach/exception/GlobalExceptionResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yunjia-parent/target/" />
@@ -37,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="177">
+              <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
               <folding>
                 <element signature="e#3032#3044#0" expanded="true" />
               </folding>
@@ -50,23 +53,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
+        <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="-57">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/serach/exception/GlobalExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="114">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="103" column="46" lean-forward="true" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -124,8 +135,12 @@
         <option value="$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/Item.java" />
         <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
         <option value="$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/search/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js" />
+        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
+        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/serach/exception/GlobalExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -142,6 +157,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yunjia-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yunjia-search-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yunjia-search-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -198,6 +222,22 @@
               <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,16 +248,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +258,17 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.yunjia-search">
+  <component name="RunManager" selected="Maven.yunjia-search-web">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -499,7 +540,7 @@
       <workItem from="1557971811652" duration="1819000" />
       <workItem from="1557995539308" duration="3484000" />
       <workItem from="1557999118184" duration="1401000" />
-      <workItem from="1558057015288" duration="18676000" />
+      <workItem from="1558057015288" duration="20983000" />
     </task>
     <task id="LOCAL-00001" summary="idea config">
       <created>1557913665228</created>
@@ -529,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558083372743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="搜索系统价格类型转换、多张图片显示异常、同步索引bug修复&#10;商品详情系统多张图片显示功能">
+      <created>1558083450011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558083450011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31464000" />
+    <option name="totallyTimeSpent" value="33771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +596,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.230563" />
+      <window_info content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.230563" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.230563" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,7 +606,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,30 +664,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/src/main/java/com/zcs/yunjia/content/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yunjia-item/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1748,12 +1772,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="627">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
-            <element signature="e#3032#3044#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1765,13 +1790,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js">
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="-57">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="103" column="46" lean-forward="true" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/serach/exception/GlobalExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding>
+            <element signature="e#3032#3044#0" expanded="true" />
           </folding>
         </state>
       </provider>
