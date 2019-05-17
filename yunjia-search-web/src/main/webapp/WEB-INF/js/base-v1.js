@@ -32,7 +32,6 @@ function addToFavorite() {
 }
 function search(a) {
     var c = document.getElementById('key').value;
-    alert('haaaaaaaaaaaaaaaaaaaaaaaaaa'+c);
     var b = "http://localhost:8086/search.html?q=" + encodeURIComponent(c);
     return window.location.href = b;
 }
