@@ -24,14 +24,14 @@
     
     <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="prefix" value="/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>	
 	
     <!-- 静态资源放行 -->
-    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"></mvc:resources>
-    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"></mvc:resources>
-    <mvc:resources location="/WEB-INF/images/" mapping="/images/**"></mvc:resources>
+    <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
+    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+    <mvc:resources location="/images/" mapping="/images/**"></mvc:resources>
 
 	<!-- dubbo 引入服务 -->
 	<dubbo:application name="yunjia-item-web"/>

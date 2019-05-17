@@ -19,5 +19,5 @@
 	<dubbo:provider timeout="50000"></dubbo:provider>
 	<!-- 声明需要暴露的服务 -->
 <!-- 	<dubbo:service interface="com.zcs.yunjia.content.service.CategoryService" ref="categoryServiceImpl" /> -->
-	<dubbo:service interface="com.zcs.yunjia.item.service.ItemService" ref="ItemServiceImpl" />
+	<dubbo:service interface="com.zcs.yunjia.item.service.ItemService" ref="itemServiceImpl" />
 </beans>

@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efb2cc1-229a-4e61-a564-31925ccae5aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-item-web/yunjia-item-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/com/zcs/yunjia/item/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/java/com/zcs/yunjia/item/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_service_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/main/java/com/zcs/yunjia/item/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_item_web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yunjia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yunjia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yunjia-item-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-item/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/yunjia-item-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/yunjia-item-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/com/zcs/yunjia/item/service/ItemService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/yunjia-item-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-redis.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item/yunjia-item-service/yunjia-item-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yunjia-parent/target/" />
@@ -58,10 +50,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java">
+        <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="148" column="119" lean-forward="true" selection-start-line="148" selection-start-column="119" selection-end-line="148" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-479">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,55 +89,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml">
+        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/java/com/zcs/yunjia/service/impl/UploadServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+            <state relative-caret-position="-108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/java/com/zcs/yunjia/service/impl/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+            <state relative-caret-position="266">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/controller/CategoryController.java">
+        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/src/main/java/com/zcs/yunjia/pojo/TbItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yunjia-item/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="25">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -126,9 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/java/com/zcs/yunjia/item/service/impl/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="149">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#477#478#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
               </folding>
@@ -137,19 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/com/zcs/yunjia/item/service/ItemService.java">
+        <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-item-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+            <state relative-caret-position="282">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -169,6 +153,9 @@
     <findStrings>
       <find>8086</find>
       <find>item</find>
+      <find>images</find>
+      <find>data-img=&quot;2&quot;</find>
+      <find>image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,13 +174,17 @@
         <option value="$PROJECT_DIR$/yunjia-item/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
         <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/yunjia-item-web/pom.xml" />
-        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/com/zcs/yunjia/item/service/ItemService.java" />
         <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/java/com/zcs/yunjia/item/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/main/java/com/zcs/yunjia/item/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/ShowItem.java" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" />
       </list>
     </option>
   </component>
@@ -207,10 +198,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yunjia-content-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yunjia-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -239,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,31 +236,57 @@
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-item-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.yunjia-item-web">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -330,6 +341,116 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="yunjia-content" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-content" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yunjia-item-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-item-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yunjia-manager-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-manager-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yunjia-manager" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-manager" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.yunjia-item-web" />
+      <item itemvalue="Maven.yunjia-manager" />
+      <item itemvalue="Maven.yunjia-manager-web" />
+      <item itemvalue="Maven.yunjia-content" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -348,7 +469,8 @@
       <workItem from="1557908673941" duration="3438000" />
       <workItem from="1557971811652" duration="1819000" />
       <workItem from="1557995539308" duration="3484000" />
-      <workItem from="1557999118184" duration="735000" />
+      <workItem from="1557999118184" duration="1401000" />
+      <workItem from="1558057015288" duration="8324000" />
     </task>
     <task id="LOCAL-00001" summary="idea config">
       <created>1557913665228</created>
@@ -357,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557913665228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="item module created(yunjia-item-service dependency not solve)">
+      <created>1558000040647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558000040647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12122000" />
+    <option name="totallyTimeSpent" value="21112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,8 +505,8 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" visible="true" weight="0.27345845" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.230563" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2774799" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -387,7 +516,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -401,7 +530,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -414,7 +543,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idea config" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea config" />
+    <MESSAGE value="item module created(yunjia-item-service dependency not solve)" />
+    <option name="LAST_COMMIT_MESSAGE" value="item module created(yunjia-item-service dependency not solve)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/src/main/java/com/zcs/yunjia/mapper/TbContentCategoryMapper.java">
@@ -555,27 +685,753 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+        <state relative-caret-position="228">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+        <state relative-caret-position="247">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="423.3247716894979">com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT</node>
+            <node x="231.5" y="618.6158675799088">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT</node>
+            <node x="473.0" y="439.86586757990887">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT</node>
+            <node x="644.5" y="333.7925228310505">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="798.5" y="298.0425228310505">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="819.5" y="339.0425228310505">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="643.5" y="476.0747716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.csource:fastdfs-client-java:jar:1.27-SNAPSHOT</node>
+            <node x="492.5" y="856.4791666666667">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3</node>
+            <node x="658.0" y="926.0747716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3</node>
+            <node x="666.5" y="785.6997716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="669.0" y="967.0747716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpcore:jar:4.3</node>
+            <node x="666.0" y="744.6997716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpmime:jar:4.3.1</node>
+            <node x="671.5" y="867.6997716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.codehaus.woodstox:wstx-asl:jar:3.2.7</node>
+            <node x="675.0" y="826.6997716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.noggit:noggit:jar:0.5</node>
+            <node x="672.0" y="1008.0747716894979">com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="243.5" y="685.8667237442926">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT</node>
+            <node x="482.0" y="1201.6583904109593">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="672.0" y="1196.4083904109593">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="495.5" y="973.9800228310505">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8</node>
+            <node x="474.5" y="593.8247716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2</node>
+            <node x="464.5" y="912.9800228310505">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15</node>
+            <node x="672.0" y="1049.074771689498">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2</node>
+            <node x="455.0" y="634.8247716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.32</node>
+            <node x="502.5" y="683.1997716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9</node>
+            <node x="670.5" y="703.6997716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="680.0" y="662.6997716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+            <node x="445.5" y="368.80336757990887">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT</node>
+            <node x="634.5" y="396.6997716894979">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="820.0" y="648.6461187214614">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+            <node x="484.5" y="1034.9800228310505">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix</node>
+            <node x="666.5" y="1140.9075342465756">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9</node>
+            <node x="844.0" y="1140.9075342465756">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12</node>
+            <node x="958.5" y="1140.9075342465756">com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="241.0" y="557.6158675799088">com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT</node>
+            <node x="258.5" y="110.9333904109593">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="486.0" y="82.0">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="662.0" y="82.0">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="484.0" y="143.0">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="640.5" y="143.0">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="466.0" y="41.0">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="263.5" y="197.6877853881282">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="256.5" y="49.933390410959305">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="485.0" y="0.0">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="268.0" y="380.7916666666667">org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="492.0" y="315.1372716894979">org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="259.0" y="422.6666666666667">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="476.5" y="480.86586757990887">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="271.0" y="258.6877853881282">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="466.0" y="244.94977168949788">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="233.0" y="334.1666666666667">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="282.0" y="809.1583904109593">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="494.5" y="797.9377853881281">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="270.5" y="1192.074771689498">org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="495.5" y="1078.6583904109593">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="503.5" y="1267.5633561643838">org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16</node>
+            <node x="506.0" y="1160.6583904109593">org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94</node>
+            <node x="503.0" y="1119.6583904109593">org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="279.5" y="1328.5633561643838">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="503.5" y="1328.5633561643838">com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14</node>
+            <node x="288.0" y="481.9791666666667">redis.clients:jedis:jar:2.9.0</node>
+            <node x="470.0" y="521.8658675799088">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16">
+              <point x="43.0" y="8.75" />
+              <point x="395.5" y="1211.324771689498" />
+              <point x="415.5" y="1278.0633561643838" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-jms:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="-2.3333333333333144" />
+              <point x="415.5" y="376.97003424657555" />
+              <point x="395.5" y="274.4377853881282" />
+              <point x="42.5" y="5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3">
+              <point x="-48.5" y="5.25" />
+              <point x="798.5" y="664.3961187214614" />
+              <point x="778.5" y="936.5747716894979" />
+              <point x="48.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="4.666666666666686" />
+              <point x="415.5" y="383.97003424657555" />
+              <point x="395.5" y="426.1666666666667" />
+              <point x="54.5" y="-7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-9.75" />
+              <point x="173.0" y="55.183390410959305" />
+              <point x="-57.0" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-jms:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-5.25" />
+              <point x="173.0" y="274.4377853881282" />
+              <point x="-42.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="45.5" y="-2.625" />
+              <point x="395.5" y="388.6666666666667" />
+              <point x="415.5" y="333.5122716894979" />
+              <point x="-38.0" y="7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT">
+              <point x="76.5" y="3.75" />
+              <point x="173.0" y="629.1158675799088" />
+              <point x="-82.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="55.0" y="-6.0" />
+              <point x="395.5" y="115.4333904109593" />
+              <point x="415.5" y="51.5" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpcore:jar:4.3">
+              <point x="37.5" y="6.0" />
+              <point x="614.5" y="872.9791666666667" />
+              <point x="634.5" y="977.5747716894979" />
+              <point x="-37.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="42.5" y="-5.25" />
+              <point x="395.5" y="263.9377853881282" />
+              <point x="415.5" y="155.83333333333337" />
+              <point x="-46.0" y="2.333333333333343" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12">
+              <point x="40.0" y="-0.0" />
+              <point x="-24.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="37.5" y="-6.0" />
+              <point x="614.5" y="860.9791666666667" />
+              <point x="634.5" y="796.1997716894979" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0">
+              <point x="27.5" y="5.25" />
+              <point x="614.5" y="698.9497716894979" />
+              <point x="634.5" y="714.1997716894979" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-45.5" y="-5.25" />
+              <point x="173.0" y="386.0416666666667" />
+              <point x="173.0" y="210.8127853881282" />
+              <point x="-50.0" y="2.625" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9">
+              <point x="45.5" y="-0.0" />
+              <point x="614.5" y="1045.4800228310505" />
+              <point x="634.5" y="1151.4075342465756" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final">
+              <point x="43.0" y="-1.75" />
+              <point x="395.5" y="1200.824771689498" />
+              <point x="415.5" y="1130.1583904109593" />
+              <point x="-27.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-0.75" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="redis.clients:jedis:jar:2.9.0">
+              <point x="-57.0" y="2.625" />
+              <point x="415.5" y="452.99086757990887" />
+              <point x="395.5" y="487.2291666666667" />
+              <point x="25.5" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="-9.333333333333314" />
+              <point x="415.5" y="369.97003424657555" />
+              <point x="395.5" y="64.63339041095935" />
+              <point x="57.0" y="4.2000000000000455" />
+            </edge>
+            <edge source="org.springframework:spring-aspects:jar:4.2.4.RELEASE" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7">
+              <point x="54.5" y="7.0" />
+              <point x="395.5" y="440.1666666666667" />
+              <point x="415.5" y="491.36586757990887" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-80.5" y="-7.0" />
+              <point x="193.0" y="337.6666666666667" />
+              <point x="193.0" y="216.0627853881282" />
+              <point x="-50.0" y="7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
+              <point x="76.5" y="6.75" />
+              <point x="173.0" y="819.6583904109593" />
+              <point x="-31.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.slf4j:slf4j-api:jar:1.7.6">
+              <point x="37.5" y="9.0" />
+              <point x="614.5" y="875.9791666666667" />
+              <point x="634.5" y="1013.3247716894979" />
+              <point x="-34.5" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT">
+              <point x="72.5" y="5.25" />
+              <point x="415.5" y="454.74086757990887" />
+              <point x="-57.0" y="4.375" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="62.0" y="-5.25" />
+              <point x="-70.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3">
+              <point x="37.5" y="3.0" />
+              <point x="614.5" y="869.9791666666667" />
+              <point x="634.5" y="936.5747716894979" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="com.github.sgroschupf:zkclient:jar:0.1">
+              <point x="76.5" y="9.75" />
+              <point x="173.0" y="1339.0633561643838" />
+              <point x="-34.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT">
+              <point x="76.5" y="2.25" />
+              <point x="173.0" y="568.1158675799088" />
+              <point x="-72.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1">
+              <point x="84.5" y="-0.0" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="44.0" y="-0.0" />
+              <point x="-44.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix">
+              <point x="70.0" y="7.0" />
+              <point x="415.5" y="1045.4800228310505" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3">
+              <point x="-57.0" y="9.625" />
+              <point x="415.5" y="459.99086757990887" />
+              <point x="415.5" y="861.7291666666667" />
+              <point x="-37.5" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT">
+              <point x="-84.5" y="7.0" />
+              <point x="415.5" y="386.30336757990887" />
+              <point x="72.5" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpmime:jar:4.3.1">
+              <point x="37.5" y="-9.0" />
+              <point x="614.5" y="857.9791666666667" />
+              <point x="634.5" y="755.1997716894979" />
+              <point x="-40.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.noggit:noggit:jar:0.5">
+              <point x="37.5" y="-3.0" />
+              <point x="614.5" y="863.9791666666667" />
+              <point x="634.5" y="837.1997716894979" />
+              <point x="-31.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE">
+              <point x="57.0" y="-4.200000000000003" />
+              <point x="395.5" y="56.23339041095926" />
+              <point x="415.5" y="44.5" />
+              <point x="-64.0" y="-7.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="-45.0" y="4.200000000000003" />
+              <point x="415.5" y="14.700000000000045" />
+              <point x="415.5" y="146.5" />
+              <point x="-46.0" y="-7.0" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="62.0" y="5.25" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT">
+              <point x="76.5" y="5.25" />
+              <point x="173.0" y="696.3667237442926" />
+              <point x="-70.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="80.5" y="-7.0" />
+              <point x="415.5" y="158.16666666666663" />
+              <point x="-46.0" y="4.666666666666657" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.csource:fastdfs-client-java:jar:1.27-SNAPSHOT">
+              <point x="57.0" y="5.25" />
+              <point x="614.5" y="455.61586757990887" />
+              <point x="-63.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-44.0" y="2.625" />
+              <point x="415.5" y="95.125" />
+              <point x="395.5" y="202.1877853881282" />
+              <point x="50.0" y="-6.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.slf4j:slf4j-api:jar:1.7.6" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="-34.5" y="5.25" />
+              <point x="634.5" y="1023.8247716894979" />
+              <point x="614.5" y="1082.1583904109593" />
+              <point x="34.5" y="-7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT/commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2">
+              <point x="72.0" y="-0.0" />
+              <point x="798.5" y="653.8961187214614" />
+              <point x="-48.5" y="-5.25" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14" target="org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="43.0" y="-5.25" />
+              <point x="395.5" y="1197.324771689498" />
+              <point x="415.5" y="1089.1583904109593" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15">
+              <point x="70.0" y="2.3333333333333712" />
+              <point x="415.5" y="923.4800228310505" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="57.0" y="-0.0" />
+              <point x="395.5" y="60.433390410959305" />
+              <point x="415.5" y="148.83333333333337" />
+              <point x="-46.0" y="-4.666666666666657" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-38.0" y="-2.625" />
+              <point x="415.5" y="323.0122716894979" />
+              <point x="395.5" y="211.1877853881282" />
+              <point x="50.0" y="3.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="2.3333333333333144" />
+              <point x="415.5" y="381.6367009132422" />
+              <point x="395.5" y="393.9166666666667" />
+              <point x="45.5" y="2.625" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-45.0" y="-4.2000000000000455" />
+              <point x="415.5" y="6.2999999999999545" />
+              <point x="395.5" y="112.4333904109593" />
+              <point x="55.0" y="-9.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="-0.0" />
+              <point x="415.5" y="379.30336757990887" />
+              <point x="80.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-42.5" y="-5.25" />
+              <point x="203.0" y="263.9377853881282" />
+              <point x="203.0" y="128.4333904109593" />
+              <point x="-55.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="57.0" y="-5.25" />
+              <point x="614.5" y="445.11586757990887" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94">
+              <point x="43.0" y="1.75" />
+              <point x="395.5" y="1204.324771689498" />
+              <point x="415.5" y="1171.1583904109593" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-6.125" />
+              <point x="415.5" y="444.24086757990887" />
+              <point x="395.5" y="217.1877853881282" />
+              <point x="50.0" y="9.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE">
+              <point x="57.0" y="-8.399999999999999" />
+              <point x="395.5" y="52.03339041095933" />
+              <point x="415.5" y="2.1000000000000227" />
+              <point x="-45.0" y="-8.399999999999999" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="redis.clients:jedis:jar:2.9.0">
+              <point x="76.5" y="0.75" />
+              <point x="173.0" y="492.4791666666667" />
+              <point x="-25.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="45.5" y="-7.875" />
+              <point x="395.5" y="383.4166666666667" />
+              <point x="415.5" y="160.5" />
+              <point x="-46.0" y="7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="76.5" y="8.25" />
+              <point x="173.0" y="1202.574771689498" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-jms:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-4.375" />
+              <point x="415.5" y="445.99086757990887" />
+              <point x="395.5" y="277.9377853881282" />
+              <point x="42.5" y="8.75" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="42.5" y="-8.75" />
+              <point x="395.5" y="260.4377853881282" />
+              <point x="415.5" y="100.375" />
+              <point x="-44.0" y="7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="-34.5" y="5.25" />
+              <point x="634.5" y="1064.824771689498" />
+              <point x="614.5" y="1089.1583904109593" />
+              <point x="34.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="-4.666666666666686" />
+              <point x="415.5" y="374.6367009132422" />
+              <point x="395.5" y="214.1877853881282" />
+              <point x="50.0" y="6.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.7" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="43.0" y="5.25" />
+              <point x="395.5" y="1207.824771689498" />
+              <point x="415.5" y="1217.4083904109593" />
+              <point x="-48.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="50.0" y="-3.0" />
+              <point x="395.5" y="205.1877853881282" />
+              <point x="415.5" y="153.5" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-6.75" />
+              <point x="173.0" y="205.5627853881282" />
+              <point x="-50.0" y="-2.625" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-64.0" y="-0.0" />
+              <point x="415.5" y="255.44977168949788" />
+              <point x="395.5" y="208.1877853881282" />
+              <point x="50.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-9.625" />
+              <point x="415.5" y="440.74086757990887" />
+              <point x="395.5" y="68.83339041095928" />
+              <point x="57.0" y="8.399999999999977" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="-64.0" y="7.0" />
+              <point x="425.5" y="58.5" />
+              <point x="425.5" y="144.16666666666663" />
+              <point x="-46.0" y="-9.333333333333343" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="70.0" y="9.333333333333371" />
+              <point x="415.5" y="1206.9083904109593" />
+              <point x="-48.0" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis-spring:jar:1.2.2">
+              <point x="70.0" y="-4.666666666666629" />
+              <point x="415.5" y="604.3247716894979" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-8.25" />
+              <point x="173.0" y="114.4333904109593" />
+              <point x="-55.0" y="-7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.32">
+              <point x="70.0" y="-2.3333333333333712" />
+              <point x="415.5" y="645.3247716894979" />
+              <point x="-75.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="46.0" y="-0.0" />
+              <point x="-66.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-2.625" />
+              <point x="415.5" y="447.74086757990887" />
+              <point x="80.5" y="7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9">
+              <point x="70.0" y="-0.0" />
+              <point x="415.5" y="693.6997716894979" />
+              <point x="-27.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-84.5" y="-7.0" />
+              <point x="415.5" y="372.30336757990887" />
+              <point x="395.5" y="127.4333904109593" />
+              <point x="55.0" y="6.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE">
+              <point x="42.5" y="-1.75" />
+              <point x="395.5" y="267.4377853881282" />
+              <point x="415.5" y="262.4497716894979" />
+              <point x="-64.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="-38.0" y="-7.875" />
+              <point x="415.5" y="317.7622716894979" />
+              <point x="415.5" y="162.83333333333337" />
+              <point x="-46.0" y="9.333333333333343" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE">
+              <point x="42.5" y="1.75" />
+              <point x="395.5" y="270.9377853881282" />
+              <point x="415.5" y="328.2622716894979" />
+              <point x="-38.0" y="2.625" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="-45.0" y="8.400000000000006" />
+              <point x="435.5" y="18.899999999999977" />
+              <point x="435.5" y="84.625" />
+              <point x="-44.0" y="-7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-0.875" />
+              <point x="415.5" y="449.49086757990887" />
+              <point x="395.5" y="399.1666666666667" />
+              <point x="45.5" y="7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.codehaus.woodstox:wstx-asl:jar:3.2.7">
+              <point x="37.5" y="-0.0" />
+              <point x="614.5" y="866.9791666666667" />
+              <point x="634.5" y="878.1997716894979" />
+              <point x="-35.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-80.5" y="-0.0" />
+              <point x="183.0" y="344.6666666666667" />
+              <point x="183.0" y="121.4333904109593" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT">
+              <point x="70.0" y="-7.0" />
+              <point x="415.5" y="458.24086757990887" />
+              <point x="-57.0" y="7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="0.875" />
+              <point x="415.5" y="451.24086757990887" />
+              <point x="395.5" y="433.1666666666667" />
+              <point x="54.5" y="-0.0" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA">
+              <point x="31.5" y="-0.0" />
+              <point x="395.5" y="819.6583904109593" />
+              <point x="415.5" y="808.4377853881281" />
+              <point x="-35.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4">
+              <point x="48.0" y="-0.0" />
+              <point x="-34.5" y="5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT">
+              <point x="70.0" y="-9.333333333333371" />
+              <point x="415.5" y="388.6367009132422" />
+              <point x="-84.5" y="9.333333333333314" />
+            </edge>
+            <edge source="redis.clients:jedis:jar:2.9.0" target="redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2">
+              <point x="25.5" y="5.25" />
+              <point x="395.5" y="497.7291666666667" />
+              <point x="415.5" y="532.3658675799088" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4" target="org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="-34.5" y="-5.25" />
+              <point x="634.5" y="1201.6583904109593" />
+              <point x="614.5" y="1096.1583904109593" />
+              <point x="34.5" y="7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-interface:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="5.25" />
+              <point x="213.0" y="65.6833904109593" />
+              <point x="213.0" y="200.3127853881282" />
+              <point x="-50.0" y="-7.875" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT">
+              <point x="82.0" y="-0.0" />
+              <point x="415.5" y="456.49086757990887" />
+              <point x="-57.0" y="6.125" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-3.75" />
+              <point x="173.0" y="351.6666666666667" />
+              <point x="-80.5" y="7.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.4.RELEASE">
+              <point x="76.5" y="-2.25" />
+              <point x="173.0" y="396.5416666666667" />
+              <point x="-45.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE" target="org.springframework:spring-beans:jar:4.2.4.RELEASE">
+              <point x="-45.0" y="-0.0" />
+              <point x="415.5" y="10.5" />
+              <point x="395.5" y="199.1877853881282" />
+              <point x="50.0" y="-9.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2">
+              <point x="65.5" y="-0.0" />
+              <point x="614.5" y="923.4800228310505" />
+              <point x="634.5" y="1054.324771689498" />
+              <point x="-34.5" y="-5.25" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3" target="org.apache.zookeeper:zookeeper:jar:3.4.7">
+              <point x="-37.5" y="5.25" />
+              <point x="415.5" y="872.2291666666667" />
+              <point x="395.5" y="1193.824771689498" />
+              <point x="43.0" y="-8.75" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE">
+              <point x="55.0" y="-0.0" />
+              <point x="395.5" y="121.4333904109593" />
+              <point x="415.5" y="151.16666666666663" />
+              <point x="-46.0" y="-2.333333333333343" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-64.0" y="-7.0" />
+              <point x="415.5" y="248.44977168949788" />
+              <point x="395.5" y="124.4333904109593" />
+              <point x="55.0" y="3.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.4.RELEASE" target="org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE">
+              <point x="55.0" y="-3.0" />
+              <point x="395.5" y="118.4333904109593" />
+              <point x="415.5" y="89.875" />
+              <point x="-44.0" y="-2.625" />
+            </edge>
+            <edge source="com.github.sgroschupf:zkclient:jar:0.1" target="com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14">
+              <point x="34.0" y="-0.0" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-content-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT" target="org.springframework:spring-context:jar:4.2.4.RELEASE">
+              <point x="-57.0" y="-7.875" />
+              <point x="415.5" y="442.49086757990887" />
+              <point x="395.5" y="130.4333904109593" />
+              <point x="55.0" y="9.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.github.pagehelper:pagehelper:jar:3.4.2-fix/com.github.jsqlparser:jsqlparser:jar:0.9/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="24.5" y="-0.0" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/org.mybatis:mybatis:jar:3.2.8">
+              <point x="70.0" y="4.666666666666629" />
+              <point x="415.5" y="984.4800228310505" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9" target="com.zcs.yunjia:yunjia-manager-dao:jar:0.0.1-SNAPSHOT/com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0">
+              <point x="27.5" y="-5.25" />
+              <point x="614.5" y="688.4497716894979" />
+              <point x="634.5" y="673.1997716894979" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.33472803347280333" x="511.0" y="707.0" />
+          <SelectedNodes>
+            <node>com.zcs.yunjia:yunjia-content-service:0.0.1-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -586,52 +1442,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+        <state relative-caret-position="149">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/controller/CategoryController.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/src/main/java/com/zcs/yunjia/item/service/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+    <entry file="uml://MAVEN/com.zcs.yunjia:yunjia-item-web:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zcs.yunjia:yunjia-item-web:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-web:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.csource:fastdfs-client-java:jar:1.27-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpcore:jar:4.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpmime:jar:4.3.1</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.codehaus.woodstox:wstx-asl:jar:3.2.7</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.noggit:noggit:jar:0.5</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-item-interface:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-manager-pojo:jar:0.0.1-SNAPSHOT/com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.springframework:spring:jar:2.5.6.SEC03</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.springframework:spring:jar:2.5.6.SEC03/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/log4j:log4j:jar:1.2.16</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/jline:jline:jar:0.9.94</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.4.7/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="" y="">com.github.sgroschupf:zkclient:jar:0.1</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="663.5" y="673.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/src/main/java/com/zcs/yunjia/item/service/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="149">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-item/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/src/main/java/com/zcs/yunjia/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/java/com/zcs/yunjia/service/impl/UploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/java/com/zcs/yunjia/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com.zcs.yunjia.item.controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="148" column="119" lean-forward="true" selection-start-line="148" selection-start-column="119" selection-end-line="148" selection-end-column="119" />
         </state>
       </provider>
     </entry>
