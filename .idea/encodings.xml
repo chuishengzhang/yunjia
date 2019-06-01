@@ -21,5 +21,9 @@
     <file url="file://$PROJECT_DIR$/yunjia-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-search/yunjia-search-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunjia-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunjia-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service" charset="UTF-8" />
   </component>
 </project>

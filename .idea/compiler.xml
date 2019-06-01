@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yunjia-manager-web" />
+        <module name="yunjia-sso-service" />
         <module name="yunjia-common" />
         <module name="yunjia-manager-service" />
         <module name="yunjia-search-interface" />
@@ -17,8 +18,10 @@
         <module name="yunjia-search-service" />
         <module name="yunjia-manager-pojo" />
         <module name="yunjia-content-service" />
+        <module name="yunjia-sso-interface" />
         <module name="yunjia-manager-interface" />
         <module name="yunjia-search-web" />
+        <module name="yunjia-sso-web" />
         <module name="yunjia-content-interface" />
         <module name="yunjia-item-service" />
       </profile>
@@ -44,6 +47,10 @@
       <module name="yunjia-search-interface" target="1.8" />
       <module name="yunjia-search-service" target="1.8" />
       <module name="yunjia-search-web" target="1.8" />
+      <module name="yunjia-sso" target="1.8" />
+      <module name="yunjia-sso-interface" target="1.8" />
+      <module name="yunjia-sso-service" target="1.8" />
+      <module name="yunjia-sso-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

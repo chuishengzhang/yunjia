@@ -23,6 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search-interface/yunjia-search-interface.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search-interface/yunjia-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service/yunjia-search-service.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search-service/yunjia-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-search-web/yunjia-search-web.iml" filepath="$PROJECT_DIR$/yunjia-search-web/yunjia-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso.iml" filepath="$PROJECT_DIR$/yunjia-sso/yunjia-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/yunjia-sso-interface.iml" filepath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/yunjia-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/yunjia-sso-service.iml" filepath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/yunjia-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-sso-web/yunjia-sso-web.iml" filepath="$PROJECT_DIR$/yunjia-sso-web/yunjia-sso-web.iml" />
     </modules>
   </component>
 </project>
