@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7efb2cc1-229a-4e61-a564-31925ccae5aa" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/yunjia-sso-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/yunjia-sso-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-transaction.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/yunjia-sso-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_sso_service_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_sso_service_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_sso_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_sso_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/pojo/LoginResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
->>>>>>> SSO页面显示、数据校验、登录验证
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-parent/port" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-parent/port" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base-v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/yunjia-sso-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/yunjia-sso-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/yunjia-sso-interface.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/yunjia-sso-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/yunjia-sso-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/yunjia-sso-service.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/yunjia-sso-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/yunjia-sso-service.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7efb2cc1-229a-4e61-a564-31925ccae5aa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yunjia-parent/target/" />
     <ignored path="$PROJECT_DIR$/yunjia-common/target/" />
@@ -101,12 +42,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -118,72 +53,38 @@
                 <element signature="e#721#722#0" expanded="true" />
                 <element signature="e#748#749#0" expanded="true" />
               </folding>
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1132">
               <caret line="229" column="50" selection-start-line="229" selection-start-column="50" selection-end-line="229" selection-end-column="50" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1159">
               <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="238" column="25" lean-forward="true" selection-start-line="234" selection-start-column="12" selection-end-line="238" selection-end-column="25" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1155">
               <caret line="7" column="170" selection-start-line="7" selection-start-column="168" selection-end-line="7" selection-end-column="170" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -204,22 +105,10 @@
                 <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
               </folding>
             </state>
->>>>>>> SSO页面显示、数据校验、登录验证
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-transaction.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base-v1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
@@ -237,25 +126,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="177" column="21" lean-forward="true" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/yunjia-manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-=======
         <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
@@ -270,12 +145,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> SSO页面显示、数据校验、登录验证
             </state>
           </provider>
         </entry>
@@ -307,12 +181,9 @@
       <find>pagehelper</find>
       <find>jms</find>
       <find>active</find>
-<<<<<<< HEAD
-=======
       <find>注册</find>
       <find>免费</find>
       <find>login()</find>
->>>>>>> SSO页面显示、数据校验、登录验证
     </findStrings>
     <dirStrings>
       <dir>D:\Java Program\IDEA\yunjia\yunjia-common\src\main\java\com\zcs\yunjia\common\pojo</dir>
@@ -363,12 +234,6 @@
         <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/java/com/zcs/yunjia/portal/exception/GlobalExceptionResolver.java" />
         <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/exception/GlobalExceptionResolver.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/yunjia-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml" />
-        <option value="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml" />
-=======
         <option value="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/yunjia-parent/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-parent/port" />
@@ -388,7 +253,6 @@
         <option value="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java" />
->>>>>>> SSO页面显示、数据校验、登录验证
       </list>
     </option>
   </component>
@@ -404,16 +268,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-<<<<<<< HEAD
-          <item name="yunjia-sso-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-=======
           <item name="yunjia-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yunjia-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
         </path>
       </expand>
       <select />
@@ -423,8 +283,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="178" />
+    <option name="x" value="367" />
+    <option name="y" value="135" />
     <option name="width" value="1194" />
     <option name="height" value="808" />
   </component>
@@ -439,10 +299,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
->>>>>>> SSO页面显示、数据校验、登录验证
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -454,36 +311,24 @@
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager-service" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -512,119 +357,54 @@
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-interface" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-parent" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-search-web" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
               <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-=======
             </path>
             <path>
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
@@ -638,16 +418,11 @@
               <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
->>>>>>> SSO页面显示、数据校验、登录验证
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
->>>>>>> SSO页面显示、数据校验、登录验证
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -667,34 +442,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-<<<<<<< HEAD
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\webapp\WEB-INF" />
-=======
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\webapp\WEB-INF" />
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main" />
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main" />
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\resources" />
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main\resources" />
->>>>>>> SSO页面显示、数据校验、登录验证
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zcs.yunjia.exception" />
     </key>
-<<<<<<< HEAD
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\resources" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main\resources" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-manager-web\src\main\webapp\WEB-INF\jsp" />
-=======
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\webapp\WEB-INF" />
->>>>>>> SSO页面显示、数据校验、登录验证
     </key>
   </component>
   <component name="RunDashboard">
@@ -980,7 +742,7 @@
     </list>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\ChuiShengZhang\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1010,14 +772,10 @@
       <workItem from="1559368062055" duration="84000" />
       <workItem from="1559369917209" duration="2602000" />
       <workItem from="1559372739625" duration="4037000" />
-<<<<<<< HEAD
-      <workItem from="1559377406430" duration="7523000" />
-=======
       <workItem from="1559377406430" duration="10872000" />
       <workItem from="1563851061163" duration="159000" />
       <workItem from="1564370794992" duration="968000" />
-      <workItem from="1564539117276" duration="14464000" />
->>>>>>> SSO页面显示、数据校验、登录验证
+      <workItem from="1564539117276" duration="15780000" />
     </task>
     <task id="LOCAL-00001" summary="idea config">
       <created>1557913665228</created>
@@ -1089,13 +847,6 @@
       <option name="project" value="LOCAL" />
       <updated>1559215862098</updated>
     </task>
-<<<<<<< HEAD
-    <option name="localTasksCounter" value="11" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52396000" />
-=======
     <task id="LOCAL-00011" summary="SSO搭建">
       <created>1559386209177</created>
       <option name="number" value="00011" />
@@ -1103,12 +854,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559386209178</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="SSO页面显示、数据校验、登录验证">
+      <created>1564561488955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564561488955</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71336000" />
->>>>>>> SSO页面显示、数据校验、登录验证
+    <option name="totallyTimeSpent" value="72652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1120,17 +877,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.27412868" />
-=======
     <frame x="228" y="143" width="955" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.49565217" visible="true" weight="0.27759197" />
->>>>>>> SSO页面显示、数据校验、登录验证
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.230563" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1140,7 +890,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32879376" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32879376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1216,7 +966,8 @@
     <MESSAGE value="后台管理系统全局异常处理" />
     <MESSAGE value="解决后台管理系统bug" />
     <MESSAGE value="SSO搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSO搭建" />
+    <MESSAGE value="SSO页面显示、数据校验、登录验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSO页面显示、数据校验、登录验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1247,9 +998,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/java/com/zcs/yunjia/item/pojo/Item.java">
-=======
     <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-activeMQ.xml" />
     <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/porperties/resource.porperties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1379,7 +1127,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-transaction.xml">
->>>>>>> SSO页面显示、数据校验、登录验证
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513" />
       </provider>
@@ -1557,12 +1304,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/exception/GlobalExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-=======
     <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base-2011.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1570,7 +1311,6 @@
           <folding>
             <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
           </folding>
->>>>>>> SSO页面显示、数据校验、登录验证
         </state>
       </provider>
     </entry>
@@ -1602,116 +1342,14 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/properties/tracker.properties" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/resources/resource.conf" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-activeMQ.xml" />
-    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/resources/porperties/resource.porperties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/js/base.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-transaction.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-=======
     <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> SSO页面显示、数据校验、登录验证
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="238" column="25" lean-forward="true" selection-start-line="234" selection-start-column="12" selection-end-line="238" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
       </provider>
     </entry>
   </component>
