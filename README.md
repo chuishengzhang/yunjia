@@ -1,5 +1,5 @@
 # 韵家商城
-韵家网上商城是一个B2C商城，系统采用分布式架构开发，maven管理项目，子系统之间通过dubbo进行通信，前后端统一采用ajax+json异步交互，使用redis集群缓存数据，提高系统性能，使用solr作为搜索引。主要包括前台系统、后台系统、搜索系统、单点登录系统、购物车系统、订单系统六大模块。（前台系统、后台系统、搜索系统已开发完成，单点登录系统、购物车系统和订单系统正在开发中）。
+韵家网上商城是一个B2C商城，系统采用分布式架构开发，maven管理项目，子系统之间通过dubbo进行通信，前后端统一采用ajax+json异步交互，使用redis集群缓存数据，提高系统性能，使用solr作为搜索引。主要包括前台系统、后台系统、搜索系统、单点登录系统、购物车系统、订单系统六大模块。（前台系统、后台系统、搜索系统、单点登录系统已开发完成，购物车系统和订单系统正在开发中）。
 
 > 源码：[github](https://github.com/ChuiShengZhang/yunjia)
 
@@ -33,6 +33,14 @@
         - yunjia-search-service
     - yunjia-portal-web(前台系统表现层)
     - yunjia-manager-web(后台系统表现层)
+    -yunjia-sso(单点登录系统)
+        -yunjia-sso-interface
+        -yunjia-sso-service
+    -yunjia-sso-web(单点登录系统表现层)
+    -yunjia-item(商品详情系统)
+        -yunjia-item-interface
+        -yunjia-item-service
+    -yunjia-item-web(商品详情系统表现层)
     
 
 ---
@@ -52,6 +60,8 @@ yunjia-search | 8085 | 20882
 yunjia-search-web | 8086
 yunjia-item | 8087 | 20883
 yunjia-item-web | 8088 |
+yunjia-sso | 8089 | 20880
+yunjia-sso-web | 8090 | 20880
 注：如需修改可在各工程的pom.xml文件中修改。
 
 ### 集群端口
