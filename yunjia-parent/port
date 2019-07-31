@@ -7,9 +7,12 @@ yunjia-search:8085
 yunjia-search-web:8086
 yunjia-item:8087
 yunjia-item-web:8088
+yunjia-sso:8089
+yunjia-sso-web:8090
 
 dubbo-port:
 yunjia-manager:20880 hessian:20890
 yunjia-content:20881
 yunjia-search:20882
 yunjia-item:20883
+yunjia-sso:20884

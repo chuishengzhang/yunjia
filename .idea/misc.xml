@@ -9,6 +9,8 @@
     <file type="web" url="file://$PROJECT_DIR$/yunjia-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

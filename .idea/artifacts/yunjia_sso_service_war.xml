@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yunjia-sso-service:war">
+    <output-path>$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yunjia-sso-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yunjia-sso-service.war">
+      <element id="artifact" artifact-name="yunjia-sso-service:war exploded" />
+    </root>
+  </artifact>
+</component>

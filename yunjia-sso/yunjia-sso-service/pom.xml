@@ -10,8 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yunjia-sso-service</artifactId>
+<<<<<<< HEAD
 
     <dependencies>
+=======
+    <packaging>war</packaging>
+
+    <dependencies>
+        <!-- 其他模块 -->
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-sso-interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-manager-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+>>>>>>> SSO页面显示、数据校验、登录验证
         <!-- dubbo相关 -->
         <dependency>
             <groupId>com.alibaba</groupId>

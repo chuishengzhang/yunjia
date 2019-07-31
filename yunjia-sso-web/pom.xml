@@ -11,6 +11,36 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yunjia-sso-web</artifactId>
+<<<<<<< HEAD
 
+=======
+    <packaging>war</packaging>
+    <!-- 依赖 -->
+    <dependencies>
+        <!-- 其他模块 -->
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-sso-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8090</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> SSO页面显示、数据校验、登录验证
 
 </project>

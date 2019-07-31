@@ -11,5 +11,16 @@
 
     <artifactId>yunjia-sso-interface</artifactId>
 
+<<<<<<< HEAD
+=======
+    <dependencies>
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-manager-pojo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+>>>>>>> SSO页面显示、数据校验、登录验证
 
 </project>

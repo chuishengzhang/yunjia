@@ -17,5 +17,20 @@
         <module>yunjia-sso-interface</module>
     </modules>
 
+<<<<<<< HEAD
 
+=======
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>8089</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> SSO页面显示、数据校验、登录验证
 </project>
