@@ -33,14 +33,14 @@
         - yunjia-search-service
     - yunjia-portal-web(前台系统表现层)
     - yunjia-manager-web(后台系统表现层)
-    -yunjia-sso(单点登录系统)
-        -yunjia-sso-interface
-        -yunjia-sso-service
-    -yunjia-sso-web(单点登录系统表现层)
-    -yunjia-item(商品详情系统)
-        -yunjia-item-interface
-        -yunjia-item-service
-    -yunjia-item-web(商品详情系统表现层)
+    - yunjia-sso(单点登录系统)
+        - yunjia-sso-interface
+        - yunjia-sso-service
+    - yunjia-sso-web(单点登录系统表现层)
+    - yunjia-item(商品详情系统)
+        - yunjia-item-interface
+        - yunjia-item-service
+    - yunjia-item-web(商品详情系统表现层)
     
 
 ---
