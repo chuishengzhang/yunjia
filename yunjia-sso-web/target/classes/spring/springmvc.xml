@@ -36,7 +36,5 @@
 	<!-- dubbo 引入服务 -->
 	<dubbo:application name="yunjia-item-web"/>
 	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181"></dubbo:registry>
-	<!-- <dubbo:reference interface="com.zcs.yunjia.content.service.ItemCatService" id="itemCatService" /> -->
-	<!--<dubbo:reference interface="com.zcs.yunjia.item.service.ItemService" id="itemService" />-->
 	<dubbo:reference interface="com.zcs.yunjia.sso.service.UserService" id="userService" />
 </beans>

@@ -1,1 +1,4 @@
+com\zcs\yunjia\sso\jedis\JedisClient.class
+com\zcs\yunjia\sso\jedis\impl\JedisClientCluster.class
+com\zcs\yunjia\sso\jedis\impl\JedisClientPool.class
 com\zcs\yunjia\sso\service\impl\UserServiceImpl.class

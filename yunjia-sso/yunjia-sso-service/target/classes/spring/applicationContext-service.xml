@@ -12,7 +12,7 @@
 	<!-- 组件扫描 -->
 	<context:component-scan base-package="com.zcs.yunjia.sso.service"></context:component-scan>
 	
-	<context:property-placeholder location="classpath:properties/*.conf"/>
+	<context:property-placeholder location="classpath:properties/*.properties"/>
 	
 	<!-- 使用dubbo发布服务 -->
 	<!-- 提供方应用信息，用于计算依赖关系 -->
@@ -20,7 +20,6 @@
 	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181" />
 	<!-- 用dubbo协议在20880端口暴露服务 -->
 	<dubbo:protocol name="dubbo" port="20880" />
-<!--	<dubbo:protocol name="hessian" port="20890"></dubbo:protocol>-->
 	<dubbo:provider timeout="50000"></dubbo:provider>
 	
 	<!-- 声明需要暴露的服务接口 -->
@@ -30,5 +29,6 @@
 	<dubbo:service interface="com.zcs.yunjia.service.ItemParamService" ref="itemParamServiceImpl" />
 	<dubbo:service interface="com.zcs.yunjia.service.ItemDescService" ref="itemDescServiceImpl" />
 	<dubbo:service protocol="hessian" interface="com.zcs.yunjia.service.UploadService" ref="uploadServiceImpl" />-->
+
 	<dubbo:service interface="com.zcs.yunjia.sso.service.UserService" ref="userServiceImpl" />
 </beans>

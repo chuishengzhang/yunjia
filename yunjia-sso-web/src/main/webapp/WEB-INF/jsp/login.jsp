@@ -76,19 +76,6 @@
 			},
 			doLogin:function() {
 				$.post("/user/login", $("#formlogin").serialize(),function(data){
-<<<<<<< HEAD
-					if (data.status == 200) {
-						alert("登录成功！");
-						if (redirectUrl == "") {
-							location.href = "http://localhost:8082";
-						} else {
-							location.href = redirectUrl;
-						}
-					} else {
-						alert("登录失败，原因是：" + data.msg);
-						$("#loginname").select();
-					}
-=======
 					//if (data.status == 200) {
 					    if (data.state == 1) {
                             alert("登录成功！");
@@ -99,7 +86,6 @@
                             alert("登录失败，原因是：" + data.msg);
                             $("#loginname").select();
                         }
->>>>>>> SSO页面显示、数据校验、登录验证
 				});
 			},
 			login:function() {

@@ -17,9 +17,6 @@
         <module>yunjia-sso-interface</module>
     </modules>
 
-<<<<<<< HEAD
-
-=======
     <build>
         <plugins>
             <plugin>
@@ -32,5 +29,4 @@
             </plugin>
         </plugins>
     </build>
->>>>>>> SSO页面显示、数据校验、登录验证
 </project>

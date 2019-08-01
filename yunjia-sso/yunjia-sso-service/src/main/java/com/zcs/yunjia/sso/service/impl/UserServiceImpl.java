@@ -4,6 +4,7 @@ import com.zcs.yunjia.common.pojo.LoginResult;
 import com.zcs.yunjia.mapper.TbUserMapper;
 import com.zcs.yunjia.pojo.TbUser;
 import com.zcs.yunjia.pojo.TbUserExample;
+import com.zcs.yunjia.sso.jedis.impl.JedisClientPool;
 import com.zcs.yunjia.sso.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,6 +41,8 @@ public class UserServiceImpl implements UserService {
         TbUser user = getUserByName(username);
         if (user != null) {
             if (user.getPassword().equals(password)) {
+                JedisClientPool jedis = new JedisClientPool();
+                jedis.set("token_test","userToken");
                 result.setState(1);
                 result.setMsg("登录成功");
             } else {
