@@ -1,12 +1,16 @@
 package com.zcs.yunjia.sso.controller;
 
 import com.zcs.yunjia.common.pojo.LoginResult;
+import com.zcs.yunjia.common.utils.CookieUtils;
+import com.zcs.yunjia.common.utils.JsonUtils;
+import com.zcs.yunjia.pojo.TbUser;
 import com.zcs.yunjia.sso.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @Controller
 public class UserController {
@@ -38,13 +42,24 @@ public class UserController {
      */
     @RequestMapping(value="/user/login",method = RequestMethod.POST)
     @ResponseBody
-    public LoginResult validateUser(@RequestParam String username,@RequestParam String password){
-        return userService.login(username,password);
+    public LoginResult validateUser(HttpServletRequest request, HttpServletResponse response, @RequestParam String username, @RequestParam String password){
+        LoginResult result = userService.login(username,password);
+        if(result.getMsg() != "") {
+            CookieUtils.setCookie(request, response, username+"Token", result.getMsg());
+        }
+        return result;
     }
 
     @RequestMapping(value="/user/check/{param}/{type}",method = RequestMethod.GET)
     @ResponseBody
     public boolean checkData(@PathVariable("param") String param,@PathVariable("type") String type ){
         return userService.checkData(param,type);
+    }
+
+    @RequestMapping("/user/{token}")
+    @ResponseBody
+    public String checkToken(@PathVariable String token){
+        TbUser user = userService.checkToken(token);
+        return JsonUtils.objectToJson(user);
     }
 }

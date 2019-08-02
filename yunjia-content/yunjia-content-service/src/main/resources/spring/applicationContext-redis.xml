@@ -67,6 +67,6 @@
 	</bean>
 	
 	<!-- 单机版 -->
-	<!-- <bean id="jedisClient" class="com.zcs.yunjia.content.service.jedis.JedisSingleClient" /> -->
+	<!-- <bean id="jedisClient" class="com.zcs.yunjia.content.service.JedisSingleClient" /> -->
 		
 </beans>

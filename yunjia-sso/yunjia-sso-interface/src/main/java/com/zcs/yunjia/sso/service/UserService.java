@@ -10,8 +10,10 @@ public interface UserService {
 
     public TbUser getUserByName(String username);
 
-    public LoginResult login(String username,String password);
+    public LoginResult login(String username, String password);
 
     public boolean checkData(String param,String type);
+
+    public TbUser checkToken(String token);
 
 }
