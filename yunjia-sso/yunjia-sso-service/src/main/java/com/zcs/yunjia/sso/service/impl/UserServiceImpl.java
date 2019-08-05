@@ -1,6 +1,7 @@
 package com.zcs.yunjia.sso.service.impl;
 
 import com.zcs.yunjia.common.pojo.LoginResult;
+import com.zcs.yunjia.common.pojo.RequestResult;
 import com.zcs.yunjia.common.utils.CookieUtils;
 import com.zcs.yunjia.common.utils.JsonUtils;
 import com.zcs.yunjia.mapper.TbUserMapper;
@@ -53,7 +54,7 @@ public class UserServiceImpl implements UserService {
                 String token = UUID.randomUUID().toString();
                 redisClient.set(token+":token",JsonUtils.objectToJson(user));
                 //设置过期时间
-                redisClient.expire(token+":token",40);
+                redisClient.expire(token+":token",15*60);
                 result.setState(1);
                 result.setMsg(token);
             } else {
@@ -96,14 +97,38 @@ public class UserServiceImpl implements UserService {
      * @param token
      * @return true已登录  false未登录
      */
-    public TbUser checkToken(String token){
+    public RequestResult checkToken(String token){
+        RequestResult result = new RequestResult();
         //查询token是否存在
         String json = redisClient.get(token+":token");
-        if(json == ""){
+        if(json == "" || json == null){
             System.out.println("token过期啦");
-            return null;
+            result.setStatus(400);
+            return result;
         }else{
-            return JsonUtils.jsonToPojo(json,TbUser.class);
+            //校验成功重新设置过期时间
+            redisClient.expire(token+":token",15*60);
+            result.setStatus(200);
+            result.setData(JsonUtils.jsonToPojo(json,TbUser.class));
+            return result;
         }
+    }
+
+    /**
+     * 用户注册
+     * @param user 前段封装的用户数据
+     * @return 注册结结果
+     */
+    public RequestResult register(TbUser user){
+        int i = userMapper.insert(user);
+        RequestResult result = new RequestResult();
+        if(i == 1){
+            result.setStatus(200);
+            result.setData(JsonUtils.objectToJson(user));
+        }else{
+            result.setStatus(400);
+            result.setData("注册失败");
+        }
+        return result;
     }
 }

@@ -1,6 +1,7 @@
 package com.zcs.yunjia.content.service.jedis;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
@@ -9,10 +10,12 @@ import redis.clients.jedis.JedisPool;
  * @author zcs
  */
 public class JedisSingleClient implements JedisClient {
-	private JedisPool jedisPool = new JedisPool();
+	@Autowired
+	private JedisPool jedisPool;
 	private Jedis jedis;
 	
-	JedisSingleClient(){
+	JedisSingleClient(JedisPool jedisPool){
+		this.jedisPool = jedisPool;
 		this.jedis = jedisPool.getResource();
 	}
 	

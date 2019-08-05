@@ -12,7 +12,7 @@
 	<!-- 组件扫描 -->
 	<context:component-scan base-package="com.zcs.yunjia.service"></context:component-scan>
 	
-	<context:property-placeholder location="classpath:properties/*.conf"/>
+	<context:property-placeholder location="classpath:resources/*.conf"/>
 	
 	<!-- 使用dubbo发布服务 -->
 	<!-- 提供方应用信息，用于计算依赖关系 -->

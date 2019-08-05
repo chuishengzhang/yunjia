@@ -1,11 +1,11 @@
 var TT = TAOTAO = {
 	checkLogin : function(){
-		var _ticket = $.cookie("TT_TOKEN");
+		var _ticket = $.cookie("userToken");
 		if(!_ticket){
 			return ;
 		}
 		$.ajax({
-			url : "http://localhost:8084/user/token/" + _ticket,
+			url : "http://localhost:8090/check/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){

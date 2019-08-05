@@ -41,7 +41,7 @@
 	width: 750px;
 	height: 220px;
 	background:
-		url(/images/errordog.jpg)
+		url(../../images/errordog.jpg)
 		0 0;
 	position: relative
 }
@@ -110,7 +110,7 @@
 
 
 	<!-- footer start -->
-	<jsp:include page="../commons/footer.jsp" />
+<%--	<jsp:include page="../commons/footer.jsp" />--%>
 	<!-- footer end -->
 </body>
 </html>

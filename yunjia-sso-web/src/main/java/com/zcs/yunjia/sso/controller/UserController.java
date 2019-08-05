@@ -1,6 +1,7 @@
 package com.zcs.yunjia.sso.controller;
 
 import com.zcs.yunjia.common.pojo.LoginResult;
+import com.zcs.yunjia.common.pojo.RequestResult;
 import com.zcs.yunjia.common.utils.CookieUtils;
 import com.zcs.yunjia.common.utils.JsonUtils;
 import com.zcs.yunjia.pojo.TbUser;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 
 @Controller
 public class UserController {
@@ -45,7 +47,7 @@ public class UserController {
     public LoginResult validateUser(HttpServletRequest request, HttpServletResponse response, @RequestParam String username, @RequestParam String password){
         LoginResult result = userService.login(username,password);
         if(result.getMsg() != "") {
-            CookieUtils.setCookie(request, response, username+"Token", result.getMsg());
+            CookieUtils.setCookie(request, response, "userToken", result.getMsg());
         }
         return result;
     }
@@ -56,10 +58,23 @@ public class UserController {
         return userService.checkData(param,type);
     }
 
-    @RequestMapping("/user/{token}")
+    @RequestMapping("/check/{token}")
     @ResponseBody
-    public String checkToken(@PathVariable String token){
-        TbUser user = userService.checkToken(token);
-        return JsonUtils.objectToJson(user);
+    public String checkToken(@PathVariable String token,@RequestParam String callback){
+        String json = JsonUtils.objectToJson(userService.checkToken(token));
+        String jsonp = callback+"("+json+")";
+        return jsonp;
+    }
+
+    @RequestMapping("/user/register")
+    @ResponseBody
+    public RequestResult register(String username,String password,String phone){
+        TbUser user = new TbUser();
+        user.setUsername(username);
+        user.setPassword(password);
+        user.setPhone(phone);
+        user.setCreated(new Date());
+        user.setUpdated(new Date());
+        return userService.register(user);
     }
 }

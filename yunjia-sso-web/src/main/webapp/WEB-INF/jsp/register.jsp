@@ -117,11 +117,7 @@
 	var REGISTER={
 		param:{
 			//单点登录系统的url
-<<<<<<< HEAD
-			surl:""
-=======
 			surl:"http://localhost:8090"
->>>>>>> SSO页面显示、数据校验、登录验证
 		},
 		inputcheck:function(){
 				//不能为空检查
@@ -154,21 +150,12 @@
 				$.ajax({
 	            	url : REGISTER.param.surl + "/user/check/"+escape($("#regName").val())+"/1?r=" + Math.random(),
 	            	success : function(data) {
-<<<<<<< HEAD
-	            		if (data.data) {
-=======
-	            	    alert(data);
 	            		if (data) {
->>>>>>> SSO页面显示、数据校验、登录验证
 	            			//检查手机号是否存在
 	            			$.ajax({
 	            				url : REGISTER.param.surl + "/user/check/"+$("#phone").val()+"/2?r=" + Math.random(),
 				            	success : function(data) {//手机号没有被注册，现在可以用
-<<<<<<< HEAD
-				            		if (data.data) {
-=======
 				            		if (data) {
->>>>>>> SSO页面显示、数据校验、登录验证
 					            		REGISTER.doSubmit();
 				            		} else {
 				            			alert("此手机号已经被注册！");
@@ -196,7 +183,7 @@
 			});
 		},
 		login:function() {
-			 location.href = "/page/login";
+			 location.href = "/login";
 			 return false;
 		},
 		reg:function() {
@@ -206,5 +193,6 @@
 		}
 	};
 </script>
+</div>
 </body>
 </html>

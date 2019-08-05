@@ -1,6 +1,7 @@
 package com.zcs.yunjia.sso.service;
 
 import com.zcs.yunjia.common.pojo.LoginResult;
+import com.zcs.yunjia.common.pojo.RequestResult;
 import com.zcs.yunjia.pojo.TbUser;
 
 /**
@@ -14,6 +15,8 @@ public interface UserService {
 
     public boolean checkData(String param,String type);
 
-    public TbUser checkToken(String token);
+    public RequestResult checkToken(String token);
+
+    public RequestResult register(TbUser user);
 
 }
