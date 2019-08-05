@@ -2,25 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efb2cc1-229a-4e61-a564-31925ccae5aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/tomcat/logs/access_log.2019-08-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_cart_service_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_cart_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_cart_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/yunjia_cart_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zcs_yunjia_yunjia_cart_service_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/java/com/zcs/yunjia/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/initcart20150123.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/myjd.commentImg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/myjd.common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/myjd.info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/myjd.order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/order-commons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/passport.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/pop_compare.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/psearch.onebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/psearch20131008.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/pshow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/purchase.2012.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/purchase.base.2012.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/purchase.checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/purchase.sop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/regist.personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/css/taotao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20111221C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20120112B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20120209D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130330A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130330A_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130330B_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130330C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130415i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130606B (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130606B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/20130725.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/2013100701.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/2013100702.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/360_flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/360_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/537b084eN94336622.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/541f893aN662da9bc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/541fdd63Nab1b3c63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/54238aaaN17189794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/543b4d75N686689d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/5440b1e4N8ff6d0fd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/5440b1e7N1ade375b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/5440ce68Na00d019e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/544a11d3Na5a3d566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/547e6a57N75c2f016.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/549d03d0N59b1f026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/backpanel20140708.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/bg20110922.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/bg_hotsale.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/bg_prompt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/bg_thickbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/btn-again.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/btn-bg-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/btn-check-20140627.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/btn-submit-new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/btn-submit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/cart_corner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/checkout-title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/cicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/commstar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/control-icon-20140521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/cue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/defaultImgs/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/error-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/error-jd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/errordog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/floor-sort20131202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/flow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/footprint-arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/hover-btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/iconadd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/im20131028.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/index-jd-wx-qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/index.showcase.tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/layer-credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/loading-jd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/login-all-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/logo-201305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/m-buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/more-slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/my_cart_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/myjd-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/myjd-common-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/myjd-new-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/newicon20140417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/one4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/one5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/one6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/order-icon-20140811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/p-btns-20140611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/perfect_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/phone-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/promise20141021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/purchase-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/pwdstrength.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/qr-code-sao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/qr-code-sao02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/rank-sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/rank2014.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/regist-btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/regist-word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/step1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/step2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/sucess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/swfupload.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/taotao-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/thickbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/tip-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/tip-cue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/toggler-arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/update.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/user_purchase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/vip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/virtuals-20140606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/virtuals-cat-ico20140826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/wait-btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/images/yzm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/CommentStar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/base-2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/base-v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/iplocation_server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jTips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery-1.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery-extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery.checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery.hashchange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/jquery.price_format.2.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/lib-v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/order.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/search_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/js/taotao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/cartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/commons/footer-links.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/classes/com/zcs/yunjia/cart/controller/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/target/tomcat/logs/access_log.2019-08-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yunjia-cart-web/yunjia-cart-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisSingleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisSingleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/taotao.js" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/taotao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/target/classes/com/zcs/yunjia/sso/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/target/classes/com/zcs/yunjia/sso/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/target/tomcat/logs/access_log.2019-08-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/classes/com/zcs/yunjia/sso/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/classes/com/zcs/yunjia/sso/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/classes/com/zcs/yunjia/sso/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/classes/com/zcs/yunjia/sso/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/tomcat/logs/access_log.2019-08-02" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-sso-web/target/tomcat/logs/access_log.2019-08-05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base-v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/taotao.js" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/taotao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yunjia-parent/port" beforeDir="false" afterPath="$PROJECT_DIR$/yunjia-parent/port" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yunjia-parent/target/" />
@@ -47,6 +231,11 @@
     <ignored path="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/target/" />
     <ignored path="$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/target/" />
     <ignored path="$PROJECT_DIR$/yunjia-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/yunjia-cart/target/" />
+    <ignored path="$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/target/" />
+    <ignored path="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/target/" />
+    <ignored path="$PROJECT_DIR$/yunjia-cart-web/target/" />
+    <ignored path="$PROJECT_DIR$/yunjia-parent/yunjia-cart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,103 +249,15 @@
     <favorites_list name="yunjia" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/taotao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/spring/applicationContext-redis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisSingleClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/impl/ContentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/impl/ItemCatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/pojo/RequestResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="176" column="39" lean-forward="true" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -179,6 +280,13 @@
       <find>注册</find>
       <find>免费</find>
       <find>login()</find>
+      <find>添加</find>
+      <find>InitCartUrl</find>
+      <find>8088</find>
+      <find>pageConfig</find>
+      <find>init</find>
+      <find>dr</find>
+      <find>slf</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Java Program\IDEA\yunjia\yunjia-common\src\main\java\com\zcs\yunjia\common\pojo</dir>
@@ -200,23 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/search/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/js/base-v1.js" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
-        <option value="$PROJECT_DIR$/yunjia-search-web/src/main/java/com/zcs/yunjia/serach/exception/GlobalExceptionResolver.java" />
-        <option value="$PROJECT_DIR$/yunjia-search/yunjia-search-service/src/main/java/com/zcs/yunjia/search/service/impl/SearchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/java/com/zcs/yunjia/portal/exception/GlobalExceptionResolver.java" />
-        <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/yunjia-manager-web/src/main/java/com/zcs/yunjia/exception/GlobalExceptionResolver.java" />
-        <option value="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/yunjia-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/yunjia-parent/port" />
-        <option value="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/pojo/LoginResult.java" />
         <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/base-v1.js" />
         <option value="$PROJECT_DIR$/yunjia-sso/pom.xml" />
@@ -251,6 +342,23 @@
         <option value="$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/spring/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java" />
         <option value="$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/taotao.js" />
+        <option value="$PROJECT_DIR$/yunjia-parent/port" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/taotao.js" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base-v1.js" />
+        <option value="$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp" />
+        <option value="$PROJECT_DIR$/yunjia-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart-web/src/main/java/com/zcs/yunjia/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/src/main/java/com/zcs/yunjia/cart/service/CartService.java" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/java/com/zcs/yunjia/cart/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/java/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/src/main/java/CartService.java" />
+        <option value="$PROJECT_DIR$/yunjia-cart/pom.xml" />
       </list>
     </option>
   </component>
@@ -263,28 +371,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yunjia-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yunjia-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="211" />
-    <option name="y" value="236" />
-    <option name="width" value="1195" />
-    <option name="height" value="703" />
+    <option name="x" value="230" />
+    <option name="y" value="145" />
+    <option name="width" value="1410" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,7 +392,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,249 +400,11 @@
               <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="yunjia" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jedis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yunjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yunjia" type="462c0819:PsiDirectoryNode" />
-              <item name="yunjia-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,7 +412,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yunjia-cart/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -567,7 +424,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -578,11 +435,11 @@
       <recent name="com.zcs.yunjia.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Program\IDEA\yunjia\yunjia-cart-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\Java Program\IDEA\yunjia\yunjia-cart-web\src\main\resources" />
+      <recent name="D:\Java Program\IDEA\yunjia\yunjia-cart\yunjia-cart-service\src\main" />
+      <recent name="D:\Java Program\IDEA\yunjia\yunjia-cart\yunjia-cart-service\src\main\resources" />
       <recent name="D:\Java Program\IDEA\yunjia\yunjia-common\src\main\java\com\zcs\yunjia\common\utils" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main\resources\spring" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main\java" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso-web\src\main\webapp\WEB-INF" />
-      <recent name="D:\Java Program\IDEA\yunjia\yunjia-sso\yunjia-sso-service\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -597,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.yunjia-sso-web">
+  <component name="RunManager" selected="Maven.yunjia-content">
     <configuration name="TestJedis.testCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yunjia-content-service" />
       <extension name="coverage">
@@ -669,6 +526,58 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="yunjia-cart-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-cart-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yunjia-cart" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-cart" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="yunjia-content" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -716,6 +625,32 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-item-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="yunjia-item" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/yunjia-item" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -914,6 +849,9 @@
       <item itemvalue="Maven.yunjia-manager" />
       <item itemvalue="Maven.yunjia-sso" />
       <item itemvalue="Maven.yunjia-sso-web" />
+      <item itemvalue="Maven.yunjia-cart" />
+      <item itemvalue="Maven.yunjia-cart-web" />
+      <item itemvalue="Maven.yunjia-item" />
       <item itemvalue="Maven.yunjia-manager-web" />
       <item itemvalue="Maven.yunjia-content" />
     </list>
@@ -965,7 +903,9 @@
       <workItem from="1564623748997" duration="13462000" />
       <workItem from="1564651242061" duration="506000" />
       <workItem from="1564711487925" duration="15817000" />
-      <workItem from="1564967870008" duration="11016000" />
+      <workItem from="1564967870008" duration="21425000" />
+      <workItem from="1564996903456" duration="634000" />
+      <workItem from="1564997589329" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="idea config">
       <created>1557913665228</created>
@@ -1065,7 +1005,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564736070654</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SSO 用户注册，token校验，单点登录、&#10;content将redis集群版切换为单机版">
+      <created>1564986209475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564986209476</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1080,7 +1027,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114941000" />
+    <option name="totallyTimeSpent" value="126269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1092,35 +1039,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="169" y="189" width="956" height="562" extended-state="0" />
+    <frame x="184" y="116" width="1128" height="564" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.49565217" visible="true" weight="0.31737193" />
+      <window_info active="true" content_ui="combo" x="576" y="59" width="383" height="706" id="Project" order="0" sideWeight="0.49042144" visible="true" weight="0.2775701" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.230563" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5043478" side_tool="true" weight="0.27759197" />
+      <window_info id="Favorites" order="6" sideWeight="0.5095785" side_tool="true" weight="0.26685393" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.39302325" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39302325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32790697" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32790697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32850778" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16635513" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1184,7 +1131,8 @@
     <MESSAGE value="SSO页面显示、数据校验、登录验证" />
     <MESSAGE value="SSO集成redis" />
     <MESSAGE value="SSO token实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSO token实现" />
+    <MESSAGE value="SSO 用户注册，token校验，单点登录、&#10;content将redis集群版切换为单机版" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSO 用户注册，token校验，单点登录、&#10;content将redis集群版切换为单机版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1215,317 +1163,468 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-transitional.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/properties/redisKyes.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/properties/JedisCluster.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Connection.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery.checkout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="206" column="14" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+        <state relative-caret-position="49">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisClient.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/jedis/impl/JedisClientCluster.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/jedis/JedisClient.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/jedis/impl/JedisClientPool.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/myapplicationContext-redis.xml" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/yunjia/sso/jedis/JedisClusterClient.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/yunjia/sso/jedis/JedisClient.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/yunjia/sso/jedis/JedisSingleClient.java" />
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        <state relative-caret-position="125">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="e#1277#1296#0" expanded="true" />
-            <element signature="e#1343#1362#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/properties/redis.properties">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery.hashchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery.price_format.2.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery-1.6.4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="59" column="23" selection-start-line="51" selection-start-column="8" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/src/main/java/com/zcs/yunjia/pojo/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jquery-extend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="106">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/jTips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/search_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/CommentStar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="308" column="30" lean-forward="true" selection-start-line="308" selection-start-column="30" selection-end-line="308" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/iplocation_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#104#110#0" expanded="true" />
+            <element signature="e#110#116#0" expanded="true" />
+            <element signature="e#138#142#0" expanded="true" />
+            <element signature="e#142#146#0" expanded="true" />
+            <element signature="e#155#161#0" expanded="true" />
+            <element signature="e#161#167#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/lib-v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/order.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base-v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/base-2011.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#25#32#1" expanded="true" />
+            <element signature="e#23#29#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1641#1647#0" expanded="true" />
+            <element signature="e#1647#1653#0" expanded="true" />
+            <element signature="e#1659#1665#0" expanded="true" />
+            <element signature="e#1665#1671#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#2123#2129#0" expanded="true" />
+            <element signature="e#2129#2135#0" expanded="true" />
+            <element signature="e#2141#2147#0" expanded="true" />
+            <element signature="e#2147#2153#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dd#0;n#dl#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dd#0;n#dl#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#span#0;n#div#0;n#dd#0;n#dl#4;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#3885#3889#0" expanded="true" />
+            <element signature="e#10615#10619#0" expanded="true" />
+            <element signature="e#10619#10623#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#11290#11296#0" expanded="true" />
+            <element signature="e#11296#11302#0" expanded="true" />
+            <element signature="e#11517#11523#0" expanded="true" />
+            <element signature="e#11523#11529#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="e#2425#2431#0" expanded="true" />
+            <element signature="e#2431#2437#0" expanded="true" />
+            <element signature="e#2574#2578#0" expanded="true" />
+            <element signature="e#2578#2582#0" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#span#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1437#1443#0" expanded="true" />
+            <element signature="e#1443#1449#0" expanded="true" />
+            <element signature="e#1606#1610#0" expanded="true" />
+            <element signature="e#1610#1614#0" expanded="true" />
+            <element signature="e#1759#1765#0" expanded="true" />
+            <element signature="e#1765#1771#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1886#1890#1" expanded="true" />
+            <element signature="e#2915#2919#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#2750#2754#1" expanded="true" />
+            <element signature="e#2922#2928#0" expanded="true" />
+            <element signature="e#2928#2934#0" expanded="true" />
+            <element signature="e#2940#2946#0" expanded="true" />
+            <element signature="e#2946#2952#0" expanded="true" />
+            <element signature="e#3162#3168#0" expanded="true" />
+            <element signature="e#3168#3174#0" expanded="true" />
+            <element signature="e#3180#3186#0" expanded="true" />
+            <element signature="e#3186#3192#0" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#117#123#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/js/taotao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/src/main/webapp/jsp/item.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunjia-sso-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
-        </state>
+        <state relative-caret-position="-399" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/redis/JedisClientSingle.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-471" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/redis/RedisClient.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-cart-web/src/main/java/com/zcs/yunjia/cart/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="805" column="21" lean-forward="true" selection-start-line="805" selection-start-column="21" selection-end-line="805" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-dao/src/main/java/com/zcs/yunjia/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-cart-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="532">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-activeMQ.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-dao.xml">
+    <entry file="file://$PROJECT_DIR$/yunjia-cart-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="246">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-parent/port">
+    <entry file="file://$PROJECT_DIR$/yunjia-item-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="-1255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="uml://MAVEN/com.zcs.yunjia:yunjia-cart:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zcs.yunjia:yunjia-cart:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.zcs.yunjia:yunjia-cart:0.0.1-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="148.0" />
+          <SelectedNodes>
+            <node>com.zcs.yunjia:yunjia-cart:0.0.1-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+    <entry file="uml://MAVEN/com.zcs.yunjia:yunjia-cart-service:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zcs.yunjia:yunjia-cart-service:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zcs.yunjia:yunjia-cart-service:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-cart-interface:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.csource:fastdfs-client-java:jar:1.27-SNAPSHOT</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/jstl:jstl:jar:1.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/commons-io:commons-io:jar:2.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpcore:jar:4.3</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.httpcomponents:httpmime:jar:4.3.1</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.apache.zookeeper:zookeeper:jar:3.4.7</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.codehaus.woodstox:wstx-asl:jar:3.2.7</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.noggit:noggit:jar:0.5</node>
+            <node x="" y="">com.zcs.yunjia:yunjia-common:jar:0.0.1-SNAPSHOT/org.apache.solr:solr-solrj:jar:4.10.3/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-aop:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.4.RELEASE/org.springframework:spring-expression:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.4.RELEASE/org.springframework:spring-web:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.4.RELEASE/org.aspectj:aspectjweaver:jar:1.8.7</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.2.4.RELEASE/org.springframework:spring-messaging:jar:4.2.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.4.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="373.0" y="701.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-interface/src/main/java/com/zcs/yunjia/sso/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="67">
+          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-common/src/main/java/com/zcs/yunjia/common/pojo/RequestResult.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
+        <state relative-caret-position="-456" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3060">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="176" column="39" lean-forward="true" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/impl/ContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/test/java/com/zcs/yunjia/content/test/TestJedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisSingleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/jedis/JedisClusterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service/src/main/java/com/zcs/yunjia/content/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso/yunjia-sso-service/src/main/java/com/zcs/yunjia/sso/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-sso-web/src/main/java/com/zcs/yunjia/sso/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-dao.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-redis.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-service.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/resources/spring/applicationContext-transaction.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="79" column="18" selection-start-line="52" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjia-portal-web/src/main/webapp/WEB-INF/js/taotao.js">
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/src/main/java/com/zcs/yunjia/cart/service/CartService.java" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/java/com/zcs/yunjia/cart/service/impl/CartServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/src/main/java/CartServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-parent/yunjia-cart/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/yunjia-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="713">
+          <caret line="263" column="21" lean-forward="true" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/src/main/java/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -1579,7 +1678,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yunjia-sso-service</last-edited>
+          <last-edited>yunjia-manager-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1602,5 +1701,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

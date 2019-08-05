@@ -8,6 +8,7 @@ var TT = TAOTAO = {
 			url : "http://localhost:8084/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
+			type : "GET",
 			success : function(data){
 				if(data.status == 200){
 					var username = data.data.username;

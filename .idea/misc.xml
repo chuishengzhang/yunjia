@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-content/yunjia-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service" />
@@ -30,7 +32,16 @@
         <option value="$PROJECT_DIR$/yunjia-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-sso/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/yunjia-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-parent/yunjia-cart/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK" />

@@ -6,27 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yunjia-manager-web" />
         <module name="yunjia-sso-service" />
         <module name="yunjia-common" />
-        <module name="yunjia-manager-service" />
+        <module name="yunjia-sso-web" />
         <module name="yunjia-search-interface" />
         <module name="yunjia-portal-web" />
         <module name="yunjia-manager-dao" />
         <module name="yunjia-item-web" />
         <module name="yunjia-item-interface" />
+        <module name="yunjia-cart-service" />
         <module name="yunjia-search-service" />
+        <module name="yunjia-content-interface" />
         <module name="yunjia-manager-pojo" />
         <module name="yunjia-content-service" />
         <module name="yunjia-sso-interface" />
         <module name="yunjia-manager-interface" />
         <module name="yunjia-search-web" />
-        <module name="yunjia-sso-web" />
-        <module name="yunjia-content-interface" />
+        <module name="yunjia-cart-web" />
+        <module name="yunjia-manager-web" />
+        <module name="yunjia-manager-service" />
         <module name="yunjia-item-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="yunjia-cart" target="1.8" />
+      <module name="yunjia-cart-interface" target="1.8" />
+      <module name="yunjia-cart-service" target="1.8" />
+      <module name="yunjia-cart-web" target="1.8" />
       <module name="yunjia-common" target="1.8" />
       <module name="yunjia-content" target="1.8" />
       <module name="yunjia-content-interface" target="1.8" />

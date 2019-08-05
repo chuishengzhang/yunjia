@@ -134,8 +134,8 @@
 				</li>
 		        <li id="choose-result"><div class="dt"></div><div class="dd"></div></li>
 				<li id="choose-btns">
-					<div id="choose-btn-append"  class="btn">
-							<a class="btn-append " id="InitCartUrl" href="/cart/add/${item.id}.html" clstag="shangpin|keycount|product|initcarturl">加入购物车<b></b></a>
+					<div id="choose-btn-appen1d"  class="btn">
+							<a class="btn-append " id="InitCartUrl12" value="/cart/add/${item.id}.html" clstag="shangpin|keycount|product|initcarturl">加入购物车<b></b></a>
 					</div>
 					<div id="choose-btn-easybuy" class="btn"></div>
 					<div id="choose-btn-divide" class="btn"></div>
@@ -259,6 +259,17 @@
 <script type="text/javascript" src="/js/product.js"></script>
 <script type="text/javascript" src="/js/iplocation_server.js"></script>
 <script type="text/javascript">
+	$('#InitCartUrl12').click(function(){
+		window.location = 'http://localhost:8092'+$('#InitCartUrl12').attr("value");
+		// $.ajax({
+		// 	url : 'http://localhost:8092/'+$('#InitCartUrl12').attr("href"),
+		// 	dataType : "jsonp",
+		// 	type: "GET",
+		// 	success : function (data) {
+		// 		alert(data);
+		// 	}
+		// });
+	});
 	var itemControl = {
 			param:{
 				descUrl:"/item/desc/",

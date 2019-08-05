@@ -5,7 +5,10 @@
   	<groupId>com.zcs.yunjia</groupId>
   	<artifactId>yunjia-parent</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
-  	<packaging>pom</packaging>
+    <modules>
+        <module>yunjia-cart</module>
+    </modules>
+    <packaging>pom</packaging>
 	<!-- 集中定义依赖版本号 -->
 	<properties>
 		<junit.version>4.12</junit.version>

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/yunjia.iml" filepath="$PROJECT_DIR$/.idea/yunjia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/yunjia-cart-service.iml" filepath="$PROJECT_DIR$/yunjia-cart/yunjia-cart-service/yunjia-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-cart-web/yunjia-cart-web.iml" filepath="$PROJECT_DIR$/yunjia-cart-web/yunjia-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-common/yunjia-common.iml" filepath="$PROJECT_DIR$/yunjia-common/yunjia-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-content/yunjia-content.iml" filepath="$PROJECT_DIR$/yunjia-content/yunjia-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface/yunjia-content-interface.iml" filepath="$PROJECT_DIR$/yunjia-content/yunjia-content-interface/yunjia-content-interface.iml" />
