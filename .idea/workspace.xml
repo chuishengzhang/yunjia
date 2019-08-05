@@ -905,7 +905,7 @@
       <workItem from="1564711487925" duration="15817000" />
       <workItem from="1564967870008" duration="21425000" />
       <workItem from="1564996903456" duration="634000" />
-      <workItem from="1564997589329" duration="285000" />
+      <workItem from="1564997589329" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="idea config">
       <created>1557913665228</created>
@@ -1027,7 +1027,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126269000" />
+    <option name="totallyTimeSpent" value="126528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1132,7 +1132,8 @@
     <MESSAGE value="SSO集成redis" />
     <MESSAGE value="SSO token实现" />
     <MESSAGE value="SSO 用户注册，token校验，单点登录、&#10;content将redis集群版切换为单机版" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSO 用户注册，token校验，单点登录、&#10;content将redis集群版切换为单机版" />
+    <MESSAGE value="yunjia-cart-web" />
+    <option name="LAST_COMMIT_MESSAGE" value="yunjia-cart-web" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1678,7 +1679,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yunjia-manager-web</last-edited>
+          <last-edited>yunjia-cart</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
