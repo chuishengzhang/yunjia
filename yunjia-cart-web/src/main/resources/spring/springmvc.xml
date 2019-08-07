@@ -31,7 +31,8 @@
     <mvc:resources location="/WEB-INF/images/" mapping="/images/**"></mvc:resources>
 
 	<!-- dubbo 引入服务 -->
-	<dubbo:application name="yunjia-item-web"/>
+	<dubbo:application name="yunjia-cart-web"/>
 	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181"></dubbo:registry>
-	<dubbo:reference interface="com.zcs.yunjia.cart.service.CartService" id="userService" />
+	<dubbo:reference interface="com.zcs.yunjia.cart.service.CartService" id="cartService" />
+	<dubbo:reference interface="com.zcs.yunjia.item.service.ItemService" id="itemService" />
 </beans>

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/yunjia-cart" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yunjia-cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-cart-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yunjia-cart/yunjia-cart-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-content/yunjia-content-interface" charset="UTF-8" />
@@ -21,7 +20,6 @@
     <file url="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yunjia-parent/yunjia-cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yunjia-search-web" charset="UTF-8" />
