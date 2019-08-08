@@ -35,4 +35,5 @@
 	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181"></dubbo:registry>
 	<dubbo:reference interface="com.zcs.yunjia.cart.service.CartService" id="cartService" />
 	<dubbo:reference interface="com.zcs.yunjia.item.service.ItemService" id="itemService" />
+	<dubbo:reference interface="com.zcs.yunjia.sso.service.UserService" id="userService" />
 </beans>

@@ -1,9 +1,11 @@
 package com.zcs.yunjia.cart.pojo;
 
+import java.io.Serializable;
+
 /**
  * 购物车商品pojo
  */
-public class CartItem {
+public class CartItem implements Serializable {
     private Long id;
     private int num;
     private String title;
