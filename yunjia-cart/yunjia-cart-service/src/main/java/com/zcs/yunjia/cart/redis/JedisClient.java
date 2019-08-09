@@ -1,8 +1,14 @@
 package com.zcs.yunjia.cart.redis;
 
+import java.util.Map;
+
 public interface JedisClient {
     public void set(String key, String value);
     public String get(String key);
     public void expire(String key, int second);
     public void close();
+    //哈希
+    public Long hSet(String key,String field,String value);
+    public String hGet(String key,String field);
+    public Map<String,String> hGetAll(String key);
 }

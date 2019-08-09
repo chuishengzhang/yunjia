@@ -15,6 +15,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @Service
@@ -34,7 +35,7 @@ public class CartServiceImpl implements CartService {
      * @param cookieCart  cookie中的购物车 没有传递null
      * @return
      */
-    public RequestResult addItemToCart(Long itemId, Integer amount,Long userId,List<CartItem> cookieCart) {
+    /*public RequestResult addItemToCart(Long itemId, Integer amount,Long userId,List<CartItem> cookieCart) {
         RequestResult result = new RequestResult();
         try {
            //创建用户购物车
@@ -63,21 +64,27 @@ public class CartServiceImpl implements CartService {
            //合并购物车
             System.out.println(cookieCart.size()+"!");
            if (cookieCart != null) {
+               if(userCart.size() == 0){
+                   userCart.add(cartItem);
+               }
+               boolean flag = true;//是否可添加到用户购物车标记
                for (int i = 0; i < userCart.size(); i++) {
                    for (int j = 0; j < cookieCart.size(); j++) {
                        System.out.println(userCart.get(i).getTitle()+"::"+cookieCart.get(j).getTitle());
                        if (cookieCart.get(j).getId().equals(userCart.get(i).getId())) {
                            System.out.println("xiangtong:"+userCart.get(i).getTitle());
                            userCart.get(i).setNum(cookieCart.get(j).getNum() + userCart.get(i).getNum());
-                           break;
                        } else {
-                           userCart.add(cookieCart.get(j));
-                           break;
+                           if(flag) {
+                               userCart.add(cookieCart.get(j));
+                               flag = false;
+                           }
                        }
                    }
                }
            }
            //持久化到redis
+            System.out.println(userCart.size()+"reids before");
             jedisClient.set(userId+"",JsonUtils.objectToJson(userCart));
             result.setStatus(200);
             result.setData(userCart);
@@ -87,23 +94,133 @@ public class CartServiceImpl implements CartService {
             result.setData(null);
         }
         return result;
+    }*/
+
+    /**
+     * 查询用户购物车内指定id的信息
+     * @param userId  用户信息
+     * @param itemId  需要查询商品的id
+     * @return 商品信息 不存在返回null
+     */
+    public CartItem getCartItemById(Long userId,Long itemId){
+        List<CartItem> userCart = getUserCart(userId);
+        CartItem cartItem = null;
+        for(CartItem ci : userCart){
+            if(ci.getId() == itemId){
+                cartItem = ci;
+            }
+        }
+        return cartItem;
     }
 
     /**
-     * 根据id查询商品信息
-     * @param id
-     * @return 商品信息
+     * 登录状态下添加商品到购物车
+     * @param itemId  添加商品的id
+     * @param amount  添加商品的数量
+     * @param userId  登录用户的id
+     * @param cookieCart cookie中的购物车 没有则传null
+     * @return  RequestResult data是用户购物车 state: 200表示不需要清空购物车 201需要清空购物车
      */
-    public TbItem getItemById(Long id){
-        return itemMapper.selectByPrimaryKey(id);
+    public RequestResult addItemToCart(Long itemId, Integer amount,Long userId,List<CartItem> cookieCart) {
+        RequestResult result = new RequestResult();
+        boolean clearCookieCart = false;
+        int state = 460;
+        List<CartItem> userCart = null;
+        try {
+            //获取用户购物车
+            userCart = getUserCart(userId);
+            //获取商品并封装成CartItem
+            TbItem item = itemMapper.selectByPrimaryKey(itemId);
+            CartItem cartItem = new CartItem();
+            cartItem.setId(itemId);
+            cartItem.setNum(amount);
+            cartItem.setImage(item.getImage());
+            cartItem.setTitle(item.getTitle());
+            cartItem.setPrice(item.getPrice());
+            //判断用户购物车是否存在该商品
+            if (hasCartItem(userId, itemId)) {
+                //存在 数量相加
+                cartItem.setNum(item.getNum() + amount);
+            } else {
+                //不存在  直接添加
+                cookieCart.add(cartItem);
+            }
+            //cookie购物车不为空 合并购物车
+            if (cookieCart != null && userCart != null) {
+                for (CartItem ci : cookieCart) {
+                    if (hasCartItem(userId, ci.getId())) {
+                        //当前cookie中商品在用户购物车中已存在
+                        //用户购物车中对应cookie商品的数量
+                        int cartNum = getCartItemById(userId, ci.getId()).getNum();
+                        //数量相加
+                        ci.setNum(ci.getNum() + cartNum);
+                    } else {
+                        //当前cookie中商品不存在用户购物车中
+                        userCart.add(ci);
+                    }
+                }
+                //合并完购物车之后清空cookie购物车
+                clearCookieCart = true;
+            }
+            //是否需要清空cookie购物车 201需要  200不需要
+            state = clearCookieCart == true ? 201 : 200;
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setData(state);
+            result.setData(null);
+            return result;
+        }
+        result.setData(state);
+        result.setData(userCart);
+        return result;
     }
 
-    public Cookie getItemFromCookie(HttpServletRequest request){
-        Cookie[] cookies = request.getCookies();
-        return null;
+
+    public List<CartItem> getCartList(Long userId){
+        List<CartItem> result;
+        try{
+            result = JsonUtils.jsonToList(jedisClient.get(userId+""),CartItem.class);
+        }catch (Exception e){
+            e.printStackTrace();
+            return  null;
+        }
+        return result;
     }
-    public List<CartItem> getCart(Long userId){
-        //查询登录用户的id
-        return JsonUtils.jsonToList(jedisClient.get(userId+""),CartItem.class);
+
+    /**
+     * 从redis取用户数据库
+     * @param userId 用户id
+     * @return 用户购物车list 不存在则返回空的集合
+     */
+    public List<CartItem> getUserCart(Long userId){
+        try{
+            Map<String,String> userCartMap = jedisClient.hGetAll(userId+"");
+            List<CartItem> userCart = new ArrayList<CartItem>();
+            //将map转成list
+            for (Map.Entry<String,String> entry : userCartMap.entrySet()) {
+                userCart.add(JsonUtils.jsonToPojo(entry.getValue(),CartItem.class));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            return new ArrayList<CartItem>();
+        }
+        return new ArrayList<CartItem>();
+    }
+
+    /**
+     * 根据用户id和商品id查询该用户购物车是否存在该商品
+     * @param userId  用户id
+     * @param itemId   商品id
+     * @return 存在返回true 不存在返回false
+     */
+    public boolean hasCartItem(Long userId,Long itemId){
+        String value;
+        try{
+            value = jedisClient.hGet(userId+"",itemId+"");
+        }catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }
+        return value == null ? false : true;
     }
 }

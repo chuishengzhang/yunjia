@@ -43,7 +43,7 @@ public class CartController {
             if(result.getStatus() == 200){
                 //已登录 从redis去购物车
                 TbUser user = (TbUser)result.getData();
-                cart = cartService.getCart(user.getId());
+                cart = cartService.getCartList(user.getId());
                 System.out.println("redis");
                 if(cart == null){
                     String cookieCart = CookieUtils.getCookieValue(request,"cartList");
@@ -90,7 +90,11 @@ public class CartController {
             if(cartListJson != null){
                 //cookie中有购物车 进行合并
                 ArrayList<CartItem> cookiesCart = (ArrayList<CartItem>)JsonUtils.jsonToList(cartListJson,CartItem.class);
-                cartService.addItemToCart(id,amount,uId,cookiesCart);
+                RequestResult result1 = cartService.addItemToCart(id,amount,uId,cookiesCart);
+                if(result1.getStatus() == 201){
+                    CookieUtils.deleteCookie(request,response,"cartList");
+                    System.out.println("201:清空cookie购物车");
+                }
             }else{
                 cartService.addItemToCart(id,amount,uId,null);
             }

@@ -10,5 +10,5 @@ public interface CartService {
     //登录状态下添加商品到购物车
     public RequestResult addItemToCart(Long itemId, Integer amount, Long userId, List<CartItem> cookieCart);
     //根据用户id取购物车
-    public List<CartItem> getCart(Long userId);
+    public List<CartItem> getCartList(Long userId);
 }
