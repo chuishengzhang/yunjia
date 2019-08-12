@@ -38,22 +38,29 @@ public class CartController {
     public String showCart(Model model,HttpServletRequest request,HttpServletResponse response){
         try{
             List<CartItem> cart = null;
+            String cookieCart = CookieUtils.getCookieValue(request,"cartList");
             String token = CookieUtils.getCookieValue(request,"userToken");
             RequestResult result = userService.checkToken(token);
             if(result.getStatus() == 200){
-                //已登录 从redis去购物车
                 TbUser user = (TbUser)result.getData();
-                cart = cartService.getCartList(user.getId());
-                System.out.println("redis");
-                if(cart == null){
-                    String cookieCart = CookieUtils.getCookieValue(request,"cartList");
-                    cart = cookieCart == null ? null : JsonUtils.jsonToList(cookieCart,CartItem.class);
-                    System.out.println("Redis:cookie");
+                //已登录 从redis去购物车
+                //判断是否有cookie购物车
+                if(cookieCart != null && !"".equals(cookieCart)){
+                    //存在cookie 调用服务合并购物车
+                    cart = cartService.webMergeCart(user.getId(),cartService.getUserCart(user.getId()),JsonUtils.jsonToList(cookieCart,CartItem.class));
+                    CookieUtils.deleteCookie(request,response,"cartList");
+                }else {
+                    //不存在 直接去redis购物车
+                    cart = cartService.getUserCart(user.getId());
+                    System.out.println("redis");
+                    if (cart.size() == 0) {
+                        cart = cookieCart == null ? null : JsonUtils.jsonToList(cookieCart, CartItem.class);
+                        System.out.println("Redis:cookie");
+                    }
                 }
             }else{
                 //未登录 取cookie购物车 没有则为null
                 System.out.println("cookie");
-                String cookieCart = CookieUtils.getCookieValue(request,"cartList");
                 cart = cookieCart == null ? null : JsonUtils.jsonToList(cookieCart,CartItem.class);
             }
             model.addAttribute("cartList",cart);
@@ -83,14 +90,16 @@ public class CartController {
             result = userService.checkToken(tokenJson.split(":")[0]);
         }
         if(result != null && result.getStatus() == 200){
+            System.out.println("已登录：");
             //已登录
             TbUser user = (TbUser)result.getData();
             Long uId = user.getId();
             //判断cookie里是否有购物车
-            if(cartListJson != null){
+            if(cartListJson != null && !"".equals(cartListJson)){
                 //cookie中有购物车 进行合并
                 ArrayList<CartItem> cookiesCart = (ArrayList<CartItem>)JsonUtils.jsonToList(cartListJson,CartItem.class);
                 RequestResult result1 = cartService.addItemToCart(id,amount,uId,cookiesCart);
+                System.out.println(result1.getData().toString());
                 if(result1.getStatus() == 201){
                     CookieUtils.deleteCookie(request,response,"cartList");
                     System.out.println("201:清空cookie购物车");
@@ -99,6 +108,7 @@ public class CartController {
                 cartService.addItemToCart(id,amount,uId,null);
             }
         }else{
+            System.out.println("未登录：");
             //未登录
             TbItem item = itemService.getItemById(id);
             CartItem cartItem = new CartItem();
@@ -107,21 +117,31 @@ public class CartController {
             cartItem.setTitle(item.getTitle());
             cartItem.setId(id);
             cartItem.setImage(item.getImage());
-            tokenJson = CookieUtils.getCookieValue(request,"token");
             ArrayList<CartItem> cartList = null;
             //判断是否存在购物车 不存在新建 存在将json转成对象
-            cartList = cartListJson == null ? new ArrayList<CartItem>() : (ArrayList<CartItem>)JsonUtils.jsonToList(cartListJson,CartItem.class);
+            if(cartListJson != null && !"".equals(cartListJson)){
+                cartList = (ArrayList<CartItem>)JsonUtils.jsonToList(cartListJson,CartItem.class);
+            }else{
+                cartList = new ArrayList<CartItem>();
+            }
             if(cartList.size() != 0) {
-                for (int i=0 ;i <cartList.size(); i++) {
-                    //判断是否已存在该商品
-                    if(cartList.get(i).getId().equals(id)){
-                        //存在 则合并数量
-                        cartList.get(i).setNum(cartList.get(i).getNum()+amount);
-                    }else{
-                        cartList.add(cartItem);
+                CartItem rmCi = null;
+                for (CartItem ci : cartList) {
+                    if(ci.getId() == id){
+                        //存在 将添加商品的数量修改诶诶添加后的商品
+                        cartItem.setNum(ci.getNum()+amount);
+                        //标记原来购物车的商品 在循环之后删除
+                        rmCi = ci;
+                        break;
                     }
                 }
-            }else{
+                if(rmCi != null){
+                    //删除原先在购物车中数量为修改的商品
+                    cartList.remove(rmCi);
+                }
+                //添加修改完数量之后的商品到购物车
+                cartList.add(cartItem);
+                }else{
                 //cookie为空 购物车为新建的
                 cartList.add(cartItem);
             }
@@ -130,7 +150,6 @@ public class CartController {
             //展示购物车
             model.addAttribute("cartList",cartList);
         }
-        //return "redirect:cart";
         return "redirect:/cart";
     }
 
