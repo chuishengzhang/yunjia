@@ -8,6 +8,7 @@ import com.zcs.yunjia.pojo.TbUser;
 import com.zcs.yunjia.sso.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -32,7 +33,8 @@ public class UserController {
      * @param page
      */
     @RequestMapping(value = "/{page}",method = RequestMethod.GET)
-    public String showPage(@PathVariable("page") String page){
+    public String showPage(@PathVariable("page") String page, String redirect, Model model){
+        model.addAttribute("redirect",redirect);
         return page;
     }
 

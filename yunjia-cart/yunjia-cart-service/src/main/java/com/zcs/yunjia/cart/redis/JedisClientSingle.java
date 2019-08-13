@@ -33,4 +33,7 @@ public class JedisClientSingle implements JedisClient {
     public Map<String,String> hGetAll(String key){
         return jedis.hgetAll(key);
     }
+    public Long hDel(String key,String field){
+        return jedis.hdel(key,field);
+    }
 }

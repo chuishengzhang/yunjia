@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -110,6 +111,36 @@ public class CartServiceImpl implements CartService {
             result.setData(null);
             return result;
         }
+    }
+
+    /**
+     * 登录状态下删除购物车里的商品
+     * @param id 商品id
+     * @param  userId 用户id
+     * @return 返回状态和删除后的购物车 400删除失败 200删除成功
+     */
+    public RequestResult delItemFromCart(Long userId,Long id){
+        RequestResult result = new RequestResult();
+        try {
+            List<CartItem> cart = getUserCart(userId);
+            for (int i = 0; i < cart.size(); i++) {
+                CartItem ci = cart.get(i);
+                if (ci.getId().equals(id)) {
+                    cart.remove(ci);
+                }
+            }
+            //将删除后的购物车持久化到redis
+            jedisClient.hDel(userId+"",id+"");
+            toRedis(userId,cart);
+            result.setData(cart);
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setStatus(400);
+            result.setData(null);
+            return result;
+        }
+        result.setStatus(200);
+        return result;
     }
     /**
      * 从redis取用户数据库

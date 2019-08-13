@@ -79,8 +79,10 @@
 					//if (data.status == 200) {
 					    if (data.state == 1) {
                             alert("登录成功！");
-                            if (data.state ==  1) {
+                            if (redirectUrl == null) {
                                 location.href = "http://localhost:8083";
+                            }else{
+                                location.href = redirectUrl;
                             }
                         } else {
                             alert("登录失败，原因是：" + data.msg);

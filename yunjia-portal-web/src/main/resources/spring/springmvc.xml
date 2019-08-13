@@ -20,13 +20,21 @@
     <mvc:annotation-driven></mvc:annotation-driven>
     
     <!-- 加载属性文件 -->
-    <context:property-placeholder location="classpath:porperties/*.porperties"/>
+    <context:property-placeholder location="classpath:porperties/*.properties"/>
     
     <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+
+	<!-- 登录拦截器 interceptor -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/order/**"/>
+			<bean class="com.zcs.yunjia.portal.interceptor.LoginInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
 
 	<!-- 异常处理器 -->
 	<bean id="exceptionHandler" class="com.zcs.yunjia.portal.exception.GlobalExceptionResolver"></bean>
@@ -41,4 +49,5 @@
 	<dubbo:registry protocol="zookeeper" address="47.100.214.167:2181"></dubbo:registry>
 	<dubbo:reference interface="com.zcs.yunjia.content.service.ContentService" id="contentService" />
 	<dubbo:reference interface="com.zcs.yunjia.content.service.ItemCatService" id="itemCatService" />
+	<dubbo:reference interface="com.zcs.yunjia.sso.service.UserService" id="userService" />
 </beans>

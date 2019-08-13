@@ -50,6 +50,9 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.3.1" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
+          <element id="archive" name="yunjia-sso-interface-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="yunjia-sso-interface" />
+          </element>
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6.SEC03" />

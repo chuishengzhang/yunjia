@@ -11,4 +11,5 @@ public interface JedisClient {
     public Long hSet(String key,String field,String value);
     public String hGet(String key,String field);
     public Map<String,String> hGetAll(String key);
+    public Long hDel(String key,String field);
 }

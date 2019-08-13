@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -153,14 +154,31 @@ public class CartController {
         return "redirect:/cart";
     }
 
-    @RequestMapping("/cart/add/{id}")
-    public String addItem(Model model, @PathVariable Long id){
-        TbItem item = itemService.getItemById(id);
-        List<TbItem> items = new ArrayList<TbItem>();
-        //数据库中的num为库存 此处设置为购买数量
-        item.setNum(1);
-        items.add(item);
-        model.addAttribute("cartList",items);
-        return "cart";
+    @RequestMapping("/cart/delete/{id}")
+    public String deleteItem(Model model, @PathVariable Long id,HttpServletRequest request,HttpServletResponse response){
+        String tokenJson = CookieUtils.getCookieValue(request,"userToken");
+        //校验token
+        RequestResult result = userService.checkToken(tokenJson!=null?tokenJson.split(":")[0]:"");
+        List<CartItem> cart = new ArrayList<CartItem>();
+        if(result.getStatus() == 200){
+            //已登录
+            TbUser user = (TbUser)result.getData();
+            RequestResult serviceResult = cartService.delItemFromCart(user.getId(),id);
+            cart = (List<CartItem>)serviceResult.getData();
+        }else {
+            //未登录 删cookie
+            System.out.println("weidl");
+            String cookieJson = CookieUtils.getCookieValue(request, "cartList");
+            cart = JsonUtils.jsonToList(cookieJson, CartItem.class);
+            for (int i = 0; i < cart.size(); i++) {
+                CartItem ci = cart.get(i);
+                if (ci.getId().equals(id)) {
+                    cart.remove(ci);
+                }
+            }
+        }
+        CookieUtils.setCookie(request,response,"cartList",JsonUtils.objectToJson(cart));
+        model.addAttribute("cartList",cart);
+        return "redirect:/cart";
     }
 }

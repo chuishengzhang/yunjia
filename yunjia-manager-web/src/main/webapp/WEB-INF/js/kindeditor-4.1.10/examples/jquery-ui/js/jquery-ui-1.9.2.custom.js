@@ -7710,7 +7710,7 @@ function getElementStyles() {
 		key,
 		len;
 
-	// webkit enumerates style porperties
+	// webkit enumerates style properties
 	if ( style && style.length && style[ 0 ] && style[ style[ 0 ] ] ) {
 		len = style.length;
 		while ( len-- ) {

@@ -15,4 +15,7 @@ public interface CartService {
 
     //合并购物车
     public List<CartItem> webMergeCart(Long uId,List<CartItem> userCart,List<CartItem> cookieCart);
+
+    //删除商品
+    public RequestResult delItemFromCart(Long userId,Long id);
 }
