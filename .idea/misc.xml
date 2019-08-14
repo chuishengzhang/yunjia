@@ -8,6 +8,8 @@
     <file type="web" url="file://$PROJECT_DIR$/yunjia-item/yunjia-item-service" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/yunjia-order/yunjia-order-service" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/yunjia-search/yunjia-search-service" />
@@ -34,6 +36,8 @@
         <option value="$PROJECT_DIR$/yunjia-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-cart-web/pom.xml" />
         <option value="$PROJECT_DIR$/yunjia-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-order/pom.xml" />
+        <option value="$PROJECT_DIR$/yunjia-order-web/pom.xml" />
       </list>
     </option>
   </component>

@@ -21,6 +21,10 @@
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/yunjia-manager-pojo.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-pojo/yunjia-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/yunjia-manager-service.iml" filepath="$PROJECT_DIR$/yunjia-manager/yunjia-manager-service/yunjia-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-manager-web/yunjia-manager-web.iml" filepath="$PROJECT_DIR$/yunjia-manager-web/yunjia-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-order/yunjia-order.iml" filepath="$PROJECT_DIR$/yunjia-order/yunjia-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-order/yunjia-order-interface/yunjia-order-interface.iml" filepath="$PROJECT_DIR$/yunjia-order/yunjia-order-interface/yunjia-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-order/yunjia-order-service/yunjia-order-service.iml" filepath="$PROJECT_DIR$/yunjia-order/yunjia-order-service/yunjia-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunjia-order-web/yunjia-order-web.iml" filepath="$PROJECT_DIR$/yunjia-order-web/yunjia-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-parent/yunjia-parent.iml" filepath="$PROJECT_DIR$/yunjia-parent/yunjia-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-portal-web/yunjia-portal-web.iml" filepath="$PROJECT_DIR$/yunjia-portal-web/yunjia-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yunjia-search/yunjia-search.iml" filepath="$PROJECT_DIR$/yunjia-search/yunjia-search.iml" />

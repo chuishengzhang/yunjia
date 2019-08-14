@@ -15,9 +15,17 @@
     
     <!-- 组件扫描 -->
     <context:component-scan base-package="com.zcs.yunjia.cart.controller"></context:component-scan>
-    
+    <!-- 属性文件加载 -->
+	<context:property-placeholder location="classpath:properties/*.properties" />
     <!-- 注解驱动 -->
     <mvc:annotation-driven></mvc:annotation-driven>
+	<!-- 配置登录拦截器 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/"/>
+			<bean class="com.zcs.yunjia.cart.interceptor.LoginInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
     
     <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

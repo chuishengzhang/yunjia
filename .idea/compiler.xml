@@ -6,24 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yunjia-manager-web" />
         <module name="yunjia-sso-service" />
         <module name="yunjia-common" />
         <module name="yunjia-sso-web" />
         <module name="yunjia-search-interface" />
+        <module name="yunjia-order-interface" />
         <module name="yunjia-portal-web" />
         <module name="yunjia-manager-dao" />
         <module name="yunjia-item-web" />
         <module name="yunjia-item-interface" />
+        <module name="yunjia-order-service" />
         <module name="yunjia-cart-service" />
+        <module name="yunjia-order-web" />
         <module name="yunjia-search-service" />
+        <module name="yunjia-content-interface" />
         <module name="yunjia-manager-pojo" />
         <module name="yunjia-content-service" />
         <module name="yunjia-sso-interface" />
         <module name="yunjia-manager-interface" />
         <module name="yunjia-search-web" />
         <module name="yunjia-cart-web" />
-        <module name="yunjia-content-interface" />
+        <module name="yunjia-manager-web" />
         <module name="yunjia-manager-service" />
         <module name="yunjia-cart-interface" />
         <module name="yunjia-item-service" />
@@ -48,6 +51,10 @@
       <module name="yunjia-manager-pojo" target="1.8" />
       <module name="yunjia-manager-service" target="1.8" />
       <module name="yunjia-manager-web" target="1.8" />
+      <module name="yunjia-order" target="1.8" />
+      <module name="yunjia-order-interface" target="1.8" />
+      <module name="yunjia-order-service" target="1.8" />
+      <module name="yunjia-order-web" target="1.8" />
       <module name="yunjia-parent" target="1.8" />
       <module name="yunjia-portal-web" target="1.8" />
       <module name="yunjia-search" target="1.8" />
