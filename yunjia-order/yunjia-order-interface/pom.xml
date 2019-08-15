@@ -11,5 +11,15 @@
 
     <artifactId>yunjia-order-interface</artifactId>
 
+    <!-- 依赖 -->
+    <dependencies>
+        <!-- 其他模块 -->
+        <dependency>
+            <groupId>com.zcs.yunjia</groupId>
+            <artifactId>yunjia-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

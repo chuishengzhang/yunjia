@@ -27,7 +27,18 @@
 					<port>8080</port>
 				</configuration>
 			</plugin>
-
+			<!-- 部署 -->
+			<!--<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8081</port>
+					<path>/yunjia-manager</path>
+					<url>http://47.100.214.167:8080/manager/text</url>
+					<username>tomcat</username>
+					<password>zcs</password>
+				</configuration>
+			</plugin>-->
 		</plugins>
 	</build>
 	<dependencies>

@@ -8,10 +8,12 @@
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
     <context:property-placeholder location="classpath:properties/*.properties" />
+
     <bean id="jedisClient" class="redis.clients.jedis.Jedis">
-        <constructor-arg name="host" value="${sso.redis.host}" />
-        <constructor-arg name="port" value="${sso.redis.port}" />
+        <constructor-arg name="host" value="${redis.host}" />
+        <constructor-arg name="port" value="${redis.port}" />
     </bean>
-    <bean id="jedis" class="com.zcs.yunjia.cart.redis.JedisClientSingle" />
+    <bean id="jedis" class="com.zcs.yunjia.order.redis.JedisClientSingle" />
 </beans>

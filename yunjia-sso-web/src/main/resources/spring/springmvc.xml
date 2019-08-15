@@ -15,12 +15,10 @@
     
     <!-- 组件扫描 -->
     <context:component-scan base-package="com.zcs.yunjia.sso.controller"></context:component-scan>
-    
     <!-- 注解驱动 -->
     <mvc:annotation-driven></mvc:annotation-driven>
-    
-    <!-- 加载属性文件 -->
-    <context:property-placeholder location="classpath:porperties/*.porperties"/>
+    <!-- 全局异常处理器 -->
+    <bean id="exceptionHandler" class="com.zcs.yunjia.sso.exception.GlobalExceptionResolver"/>
     
     <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

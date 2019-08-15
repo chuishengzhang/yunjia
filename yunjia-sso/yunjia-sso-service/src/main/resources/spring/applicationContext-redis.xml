@@ -13,5 +13,5 @@
         <constructor-arg name="host" value="${sso.redis.host}" />
         <constructor-arg name="port" value="${sso.redis.port}" />
     </bean>
-    <bean id="jedis" class="com.zcs.yunjia.sso.redis.JedisClientSingle" />
+    <bean id="jedis" class="com.zcs.yunjia.sso.com.zcs.yunjia.order.redis.JedisClientSingle" />
 </beans>

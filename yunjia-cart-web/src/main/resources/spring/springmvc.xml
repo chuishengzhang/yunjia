@@ -17,7 +17,8 @@
     <context:component-scan base-package="com.zcs.yunjia.cart.controller"></context:component-scan>
     <!-- 注解驱动 -->
     <mvc:annotation-driven></mvc:annotation-driven>
-
+	<!-- 全局异常处理器 -->
+	<bean id="exceptionHandler" class="com.zcs.yunjia.cart.exception.GlobalExceptionResolver"/>
     
     <bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

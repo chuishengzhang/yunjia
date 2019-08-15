@@ -10,6 +10,11 @@
 
 	<!-- 依赖 -->
 	<dependencies>
+		<dependency>
+			<groupId>com.zcs.yunjia</groupId>
+			<artifactId>yunjia-manager-pojo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- Jackson Json处理工具包 -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>

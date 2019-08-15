@@ -19,6 +19,8 @@
 	<mvc:annotation-driven />
 	<!-- 加载属性文件 -->
 	<context:property-placeholder location="classpath:properties/*.properties"/>
+	<!-- 全局异常处理器 -->
+	<bean id="exceptionHandler" class="com.zcs.yunjia.order.exception.GlobalExceptionResolver"/>
 	<!-- 登录拦截器 -->
 	<mvc:interceptors>
 		<mvc:interceptor>
@@ -54,8 +56,8 @@
 	
 	<dubbo:reference interface="com.zcs.yunjia.sso.service.UserService" id="userService" />
 	<dubbo:reference interface="com.zcs.yunjia.cart.service.CartService" id="cartService" />
-	<!--<dubbo:reference interface="com.zcs.yunjia.content.service.CategoryService" id="categoryService" />
-	<dubbo:reference interface="com.zcs.yunjia.content.service.ContentService" id="contentService" />
+	<dubbo:reference interface="com.zcs.yunjia.order.service.OrderService" id="orderService" />
+	<!--<dubbo:reference interface="com.zcs.yunjia.content.service.ContentService" id="contentService" />
 	<dubbo:reference interface="com.zcs.yunjia.service.ItemCatService" id="itemCatService" />
 	<dubbo:reference interface="com.zcs.yunjia.service.ItemParamService" id="itemParamService" />
 	<dubbo:reference interface="com.zcs.yunjia.service.ItemDescService" id="itemDescService" />

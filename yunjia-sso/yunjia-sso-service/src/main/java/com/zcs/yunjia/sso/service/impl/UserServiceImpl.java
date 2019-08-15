@@ -2,17 +2,14 @@ package com.zcs.yunjia.sso.service.impl;
 
 import com.zcs.yunjia.common.pojo.LoginResult;
 import com.zcs.yunjia.common.pojo.RequestResult;
-import com.zcs.yunjia.common.utils.CookieUtils;
 import com.zcs.yunjia.common.utils.JsonUtils;
 import com.zcs.yunjia.mapper.TbUserMapper;
 import com.zcs.yunjia.pojo.TbUser;
 import com.zcs.yunjia.pojo.TbUserExample;
-import com.zcs.yunjia.sso.redis.JedisClientSingle;
 import com.zcs.yunjia.sso.redis.RedisClient;
 import com.zcs.yunjia.sso.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -52,7 +49,7 @@ public class UserServiceImpl implements UserService {
             if (user.getPassword().equals(password)) {
                 //登录成功 生成token并写入redis中
                 String token = UUID.randomUUID().toString();
-                redisClient.set(token+":token",JsonUtils.objectToJson(user));
+                redisClient.set(token+":token", JsonUtils.objectToJson(user));
                 //设置过期时间
                 redisClient.expire(token+":token",15*60);
                 result.setState(1);
