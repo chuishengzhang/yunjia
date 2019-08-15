@@ -11,3 +11,4 @@ gen
 /.idea/
 /.settings/
 .project
+.classpath
