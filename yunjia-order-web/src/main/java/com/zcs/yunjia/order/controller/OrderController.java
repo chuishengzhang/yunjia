@@ -25,8 +25,10 @@ public class OrderController {
         List<CartItem> userCart = cartService.getUserCart(user.getId());
         //图片处理
         for (CartItem ci: userCart) {
-            if(ci.getImage().contains(",")){
-                ci.setImage(ci.getImage().split(",")[0]);
+            //图片可能有多张用逗号分隔，这里只取第一张图片展示
+            String images = ci.getImage();
+            if(images.contains(",")){
+                ci.setImage(images.split(",")[0]);
             }
         }
         model.addAttribute("cartList",userCart);
