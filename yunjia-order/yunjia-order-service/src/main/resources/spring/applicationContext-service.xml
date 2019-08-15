@@ -30,4 +30,5 @@
 	<dubbo:service interface="com.zcs.yunjia.service.ItemDescService" ref="itemDescServiceImpl" />
 	<dubbo:service protocol="hessian" interface="com.zcs.yunjia.service.UploadService" ref="uploadServiceImpl" />-->
 	<dubbo:service interface="com.zcs.yunjia.order.service.OrderService" ref="orderServiceImpl" />
+	<dubbo:service interface="com.zcs.yunjia.cart.service.CartService" ref="cartService" />
 </beans>

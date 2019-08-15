@@ -12,3 +12,4 @@ gen
 /.settings/
 .project
 .classpath
+db.properties

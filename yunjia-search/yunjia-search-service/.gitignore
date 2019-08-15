@@ -11,3 +11,5 @@ gen
 /.idea/
 /.settings/
 .project
+.classpath
+db.properties

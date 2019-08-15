@@ -53,8 +53,8 @@
 	<dubbo:consumer timeout="50000"></dubbo:consumer>
 	
 	<dubbo:reference interface="com.zcs.yunjia.sso.service.UserService" id="userService" />
-	<!--<dubbo:reference interface="com.zcs.yunjia.service.ItemService" id="itemService" />
-	<dubbo:reference interface="com.zcs.yunjia.content.service.CategoryService" id="categoryService" />
+	<dubbo:reference interface="com.zcs.yunjia.cart.service.CartService" id="cartService" />
+	<!--<dubbo:reference interface="com.zcs.yunjia.content.service.CategoryService" id="categoryService" />
 	<dubbo:reference interface="com.zcs.yunjia.content.service.ContentService" id="contentService" />
 	<dubbo:reference interface="com.zcs.yunjia.service.ItemCatService" id="itemCatService" />
 	<dubbo:reference interface="com.zcs.yunjia.service.ItemParamService" id="itemParamService" />
