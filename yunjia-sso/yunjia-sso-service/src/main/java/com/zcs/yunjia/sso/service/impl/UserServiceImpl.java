@@ -128,4 +128,12 @@ public class UserServiceImpl implements UserService {
         }
         return result;
     }
+    public RequestResult logout(String token){
+        RequestResult result = new RequestResult();
+        //删除redis中的token
+        Long id = redisClient.del(token+":token");
+        int states = id == null ? 400 : 200;
+        result.setStatus(states);
+        return result;
+    }
 }

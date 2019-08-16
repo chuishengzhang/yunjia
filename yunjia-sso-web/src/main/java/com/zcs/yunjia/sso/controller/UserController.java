@@ -5,6 +5,7 @@ import com.zcs.yunjia.common.pojo.RequestResult;
 import com.zcs.yunjia.common.utils.CookieUtils;
 import com.zcs.yunjia.common.utils.JsonUtils;
 import com.zcs.yunjia.pojo.TbUser;
+import com.zcs.yunjia.sso.redis.RedisClient;
 import com.zcs.yunjia.sso.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -78,5 +79,17 @@ public class UserController {
         user.setCreated(new Date());
         user.setUpdated(new Date());
         return userService.register(user);
+    }
+
+    @RequestMapping("/user/logout")
+    @ResponseBody
+    public String logout(HttpServletRequest request,HttpServletResponse response){
+        String token = CookieUtils.getCookieValue(request,"userToken");
+        RequestResult result = userService.logout(token);
+        if(result.getStatus() == 200){
+            //清空cookie
+            CookieUtils.deleteCookie(request,response,"userToken");
+        }
+        return "注销成功";
     }
 }

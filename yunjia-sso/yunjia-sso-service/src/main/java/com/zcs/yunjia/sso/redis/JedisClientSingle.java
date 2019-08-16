@@ -22,4 +22,7 @@ public class JedisClientSingle implements RedisClient {
     public void close(){
         jedis.close();
     }
+    public Long del(String key){
+        return jedis.del(key);
+    }
 }

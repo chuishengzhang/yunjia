@@ -5,4 +5,5 @@ public interface RedisClient {
     public String get(String key);
     public void expire(String key,int second);
     public void close();
+    public Long del(String key);
 }
