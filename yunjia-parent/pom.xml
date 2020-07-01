@@ -36,7 +36,7 @@
 		<zkclient.version>0.1</zkclient.version>
 		<activemq.version>5.13.0</activemq.version>
 		<freemarker.version>2.3.23</freemarker.version>
-		<quartz.version>2.2.2</quartz.version>
+		<quartz.version>2.3.2</quartz.version>
 		<hessian.version>4.0.7</hessian.version>
 		<jetty.version>6.1.26</jetty.version>
 	</properties>
